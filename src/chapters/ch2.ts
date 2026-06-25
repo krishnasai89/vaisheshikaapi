@@ -1,0 +1,1308 @@
+import { Chapter } from "../data";
+
+export const ch2: Chapter = {
+  id: "ch-2",
+  chapterNumber: 2,
+  title: "The Attributes of the Elements",
+  description:
+    "Examination of the distinct sensory markers of Earth, Water, Fire, Air, and Ether.",
+  verses: [
+    {
+      id: "v-2-1-1",
+      verseNumber: "2.1.1",
+      ahnika: 1,
+      sanskrit: "रूपरसगन्धस्पर्शवती पृथिवी॥",
+      transliteration: "rūparasagandhasparśavatī pṛthivī ||",
+      translation: "Earth possesses Color, Taste, Smell, and Touch.",
+      commentary:
+        "Kanada states that Earth is unique because it is the only elemental state of matter that can simultaneously manifest all four baseline physical properties.",
+      philosophy:
+        "Vaisheshika defines elements based on property accumulation. Solid matter (Earth) forms the highest structural matrix, containing the complete spectrum of mechanical and sensory attributes.",
+      viewpoint: {
+        how_people_think: "Earth just means literal garden dirt or mud.",
+        the_reality_is:
+          "In Vaisheshika physics, Earth represents the solid state of matter—any material structure dense enough to host color, structural taste, molecular smell, and tangible touch.",
+      },
+    },
+    {
+      id: "v-2-1-2",
+      verseNumber: "2.1.2",
+      ahnika: 1,
+      sanskrit: "रूपरसस्पर्शवत्य आपो द्रवाः स्निग्धाः॥",
+      transliteration: "rūparasasparśavatya āpo dravāḥ snigdhāḥ ||",
+      translation:
+        "Water possesses Color, Taste, and Touch, and is naturally fluid and cohesive.",
+      commentary:
+        "Water lacks the capacity to hold an independent property of smell. It is naturally defined by its liquid state (*dravatva*) and its unique binding or viscid trait (*sneha*).",
+      philosophy:
+        "The elimination of properties down the elemental scale. Kanada isolates the liquid state of matter, demonstrating that its primary characteristics are fluidity and its ability to act as a binding agent for solids.",
+      viewpoint: {
+        how_people_think: "Water smells on its own if it is pure.",
+        the_reality_is:
+          "Vaisheshika notes that pure water has zero olfactory footprint. Any smell coming from water is due to microscopic particles of solid matter (Earth) physically suspended inside it.",
+      },
+    },
+    {
+      id: "v-2-1-3",
+      verseNumber: "2.1.3",
+      ahnika: 1,
+      sanskrit: "तेजो रूपस्पर्शवत्॥",
+      transliteration: "tejo rūpasparśavat ||",
+      translation: "Fire possesses Color and Touch.",
+      commentary:
+        "The plasma/thermal state of matter (*Tejas*) drops another sensory index. It cannot be tasted and it cannot be smelled; it can only be visually perceived and thermally felt.",
+      philosophy:
+        "Thermal energy and light are classified uniformly. Fire is that state of reality which transmits radiant energy—capable of altering the visual qualities and molecular configurations of whatever it touches.",
+      viewpoint: {
+        how_people_think:
+          "Heat and light are completely separate forces of nature with zero crossover.",
+        the_reality_is:
+          "Kanada couples them perfectly into the category of *Tejas*: a singular state of energy that manifests visually as color/luminosity and tactually as temperature.",
+      },
+    },
+    {
+      id: "v-2-1-4",
+      verseNumber: "2.1.4",
+      ahnika: 1,
+      sanskrit: "स्पर्शवान् वायुः॥",
+      transliteration: "sparśavān vāyuḥ ||",
+      translation: "Air possesses Touch only.",
+      commentary:
+        "The gaseous state of matter (*Vayu*) is completely invisible, tasteless, and odorless by nature. Its presence can only be measured when it mechanically collides with a surface (touch).",
+      philosophy:
+        "An elegant proof of an invisible gas. Air is a real, objective physical substance because it passes the test of tactile resistance—exerting pressure and registering touch vectors despite being visually transparent.",
+      viewpoint: {
+        how_people_think:
+          "Because the atmosphere is clear and invisible, it is just empty space containing no actual matter.",
+        the_reality_is:
+          "Vaisheshika treats gas as a heavy substance. Air is a collection of concrete physical particles whose uniform signature is tactile resistance and kinetic pressure.",
+      },
+    },
+    {
+      id: "v-2-1-5",
+      verseNumber: "2.1.5",
+      ahnika: 1,
+      sanskrit: "त आकाशे न विद्यन्ते॥",
+      transliteration: "ta ākāśe na vidyante ||",
+      translation:
+        "These four attributes (Color, Taste, Smell, and Touch) are completely absent in Ether (Space).",
+      commentary:
+        "Ether (*Akasha*) cannot be measured by any of the four material properties that define regular atomic solids, liquids, plasmas, or gases.",
+      philosophy:
+        "Space is non-atomic. Kanada establishes that the cosmic spatial substrate is an all-pervading, continuous medium. It provides the background arena for matter, but it is not composed of compounding material particles.",
+      viewpoint: {
+        how_people_think:
+          "Space is made of the same tiny, invisible molecular dust particles as the air we breathe.",
+        the_reality_is:
+          "Vaisheshika defines space as an entirely different order of substance. It is a completely non-material, continuous, frictionless continuum that cannot be touched, tasted, or seen.",
+      },
+    },
+    {
+      id: "v-2-1-6",
+      verseNumber: "2.1.6",
+      ahnika: 1,
+      sanskrit: "सर्पिर्जतुजतूत्कर्षणानामभिसंयोगोऽग्निकर्मणो लक्षणम्॥",
+      transliteration:
+        "sarpirjatujatūtkarṣaṇānāmabhisaṁyogo'gnikarmaṇo lakṣaṇam ||",
+      translation:
+        "The melting or fluid state induced in clarified butter, lac, and wax upon contact with heat is the characteristic mark of the action of Fire.",
+      commentary:
+        "Kanada explains thermodynamic state changes. Certain solid substances melt and change their physical viscosity specifically when energy is introduced from a heat source.",
+      philosophy:
+        "An early study of thermal transition. Vaisheshika notes that heat (*Tejas*) isn't just something that illuminates; it acts as a dynamic kinetic agent that penetrates molecular boundaries to liquefy dense matter.",
+      viewpoint: {
+        how_people_think:
+          "Phase changes (like a solid turning into a liquid) happen spontaneously by a mystical biological clock inside the material.",
+        the_reality_is:
+          "Vaisheshika treats thermodynamics objectively: melting is a clear, physical reaction caused by an external absorption of thermal energy disrupting atomic links.",
+      },
+    },
+    {
+      id: "v-2-1-7",
+      verseNumber: "2.1.7",
+      ahnika: 1,
+      sanskrit:
+        "त्रपुसीसलोहलोहकाररजतसुवर्णानामग्निसंयोगाद्द्रवत्वमद्भिः सामान्यम्॥",
+      transliteration:
+        "trapusīsalohalohakārarajatasuvarṇānāmagnisaṁyogāddravatvamadbhiḥ sādharmyam ||",
+      translation:
+        "The liquidity induced in tin, lead, iron, silver, and gold from contact with fire is a shared characteristic with Water.",
+      commentary:
+        "Extends the thermodynamic rule to metallurgy. Solid metals melt into a high-energy fluid state under extreme heat, temporarily mirroring the natural fluidity of water.",
+      philosophy:
+        "Identifies conditional liquidity (*Naimittika Dravatva*). Vaisheshika distinguishes between things that are naturally fluid (Water) and things that can be forced into a fluid state under extreme thermal conditions (Metals).",
+      viewpoint: {
+        how_people_think:
+          "Molten gold or hot liquid metal transforms into literal liquid water during the heating process.",
+        the_reality_is:
+          "Kanada showcases structural similarity, not transmutation. The substance remains metal, but thermal energy forces its micro-components to act with the same spatial freedom as water molecules.",
+      },
+    },
+    {
+      id: "v-2-1-8",
+      verseNumber: "2.1.8",
+      ahnika: 1,
+      sanskrit: "स्पर्शश्च वायोः॥",
+      transliteration: "sparśaśca vāyoḥ ||",
+      translation: "And touch is the unique, distinguishing signature of Air.",
+      commentary:
+        "Since air is completely invisible to our eyes, its mechanical existence is verified exclusively through tactile perception and kinetic friction.",
+      philosophy:
+        "Empirical proof of invisible substance. Vaisheshika establishes that visibility is not a requirement for an object to be real. If an element demonstrates tangible, physical resistance against our skin, it is a real substance.",
+      viewpoint: {
+        how_people_think:
+          "If a gas or wind cannot be captured or visually seen, it does not exist as real matter.",
+        the_reality_is:
+          "Kanada proves gas is real matter. Air is an objective, heavy, physical medium whose dynamic collisions register directly as tactile data.",
+      },
+    },
+    {
+      id: "v-2-1-9",
+      verseNumber: "2.1.9",
+      ahnika: 1,
+      sanskrit: "न च रूपवद्द्रव्यचाक्षुषात् रूपाभावदालिङ्गाच्च॥",
+      transliteration: "na ca rūpavad dravyacākṣuṣāt rūpābhāvādaliṅgācca ||",
+      translation:
+        "Air is not visually perceived because it lacks color, and a substance must possess visible color to be seen by the eye.",
+      commentary:
+        "Explains the science of vision. Human eyes can only detect a physical body if that body reflects or emits a light/color attribute (*Rupa*).",
+      philosophy:
+        "Isolates sensory thresholds. Vaisheshika notes that our human sense instruments are calibrated to specific physical signatures. The absence of a visual property does not prove an element is missing; it just means it falls outside our optical spectrum.",
+      viewpoint: {
+        how_people_think:
+          "The eye is a magical instrument that can see every single type of real substance present in the environment.",
+        the_reality_is:
+          "Kanada shows our eyes are highly specific instruments. We can only process structures that possess optical attributes; invisible gases are completely missed by sight but caught by touch.",
+      },
+    },
+    {
+      id: "v-2-1-10",
+      verseNumber: "2.1.10",
+      ahnika: 1,
+      sanskrit: "वायुप्रतिरूपोऽनुमानम्॥",
+      transliteration: "vāyupratirūpo'numānam ||",
+      translation:
+        "The existence of Air is also proved by inference through its mechanical effects, such as the movement of trees.",
+      commentary:
+        "We can verify the presence of wind through logical inference (*Anumana*) by observing how its kinetic force physically drives stationary macro-objects.",
+      philosophy:
+        "The introduction of logical mechanics. When we watch branches sway or leaves fly, we are witnessing an effect. Since an action requires a material cause (as defined in Chapter 1), there *must* be an invisible physical substance carrying momentum that hits the tree.",
+      viewpoint: {
+        how_people_think:
+          "Trees rustle and sway due to a conscious, mystical spirit inside the wood wanting to dance.",
+        the_reality_is:
+          "Vaisheshika uses clean mechanical inference: the movement is a physical workload caused by an invisible, high-velocity stream of gas particles transferring its momentum to the branch.",
+      },
+    },
+    {
+      id: "v-2-1-11",
+      verseNumber: "2.1.11",
+      ahnika: 1,
+      sanskrit: "तस्मादागमिकम्॥",
+      transliteration: "tasmādāgamikam ||",
+      translation:
+        "Therefore, the classification of Air is also validated by traditional conceptual testimony.",
+      commentary:
+        "Kanada reinforces that logical mechanical inference and verbal testimony from trustworthy observers arrive at the exact same conclusion about the physical reality of gas.",
+      philosophy:
+        "Vaisheshika shows that genuine conceptual authority (*Sabda*) does not contradict physics; rather, it is simply a reliable record of natural laws compiled by previous rational observers.",
+      viewpoint: {
+        how_people_think:
+          "Scientific observation and traditional conceptual knowledge must always be completely at war with one another.",
+        the_reality_is:
+          "Kanada demonstrates that true analytical data and reliable records converge perfectly on the same objective truths of nature.",
+      },
+    },
+    {
+      id: "v-2-1-12",
+      verseNumber: "2.1.12",
+      ahnika: 1,
+      sanskrit: "संज्ञाकर्म त्वस्मद्विशिष्टानां लिङ्गम्॥",
+      transliteration: "saṁjñākarma tvasmadviśiṣṭānāṁ liṅgam ||",
+      translation:
+        "The act of naming things and inventing language is a distinguishing mark of advanced, intelligent minds.",
+      commentary:
+        "An exploration of linguistics. The systematic mapping of specific sounds (names) to specific physical objects is an intentional, structured choice made by conscious, highly evolved observers.",
+      philosophy:
+        "Language is not divine magic; it is an analytical code. Names do not possess a mystical, intrinsic connection to objects. Instead, language is a cognitive tracking tool designed by intelligence to navigate the material grid.",
+      viewpoint: {
+        how_people_think:
+          "Words and names fell from the sky as mystical, supernatural objects embedded directly into things.",
+        the_reality_is:
+          "Vaisheshika views language pragmatically: it is a brilliant data-tagging system engineered by human intelligence to index and communicate structural properties.",
+      },
+    },
+    {
+      id: "v-2-1-13",
+      verseNumber: "2.1.13",
+      ahnika: 1,
+      sanskrit: "प्रत्यक्षप्रवृत्तत्वात् संज्ञाकर्मणः॥",
+      transliteration: "pratyakṣapravṛttatvāt saṁjñākarmaṇaḥ ||",
+      translation:
+        "Because the act of naming is driven by the direct, empirical perception of objects.",
+      commentary:
+        "We invent labels and words only after directly observing the unique, repeating properties (*lakshana*) of substances.",
+      philosophy:
+        "Empiricism drives semantics. Observation precedes language. The human mind first absorbs data through the senses (direct perception) and then applies classification tags to keep the data organized.",
+      viewpoint: {
+        how_people_think:
+          "You must learn the magical names of things before you are allowed to observe or understand how they work in the real world.",
+        the_reality_is:
+          "Kanada reverses the loop: empirical observation of natural properties is the necessary foundation that allows us to build meaningful language in the first place.",
+      },
+    },
+    {
+      id: "v-2-1-14",
+      verseNumber: "2.1.14",
+      ahnika: 1,
+      sanskrit: "निष्क्रमणं प्रवेशनमित्याकाशस्य लिङ्गम्॥",
+      transliteration: "niṣkramaṇaṁ praveśanamityākāśasya liṅgam ||",
+      translation:
+        "Egress and ingress (entering and exiting/movement) are the initial mechanical marks that suggest the presence of Ether (Space).",
+      commentary:
+        "For any physical body to move, enter, or exit, there must be an unobstructed, all-pervading vacuum or field that accommodates that displacement.",
+      philosophy:
+        "The necessity of a spatial field. If reality were completely packed tight with zero non-material intervals, kinetic translation would hit an absolute dead lock. Space is the indispensable baseline container that allows matter to change coordinates.",
+      viewpoint: {
+        how_people_think:
+          "Space is an imaginary concept that disappears if you remove all visible, solid objects from a room.",
+        the_reality_is:
+          "Vaisheshika defines Space as a real, continuous, objective substance. It is the permanent, non-material background field that physically enables all mechanical movement.",
+      },
+    },
+    {
+      id: "v-2-1-15",
+      verseNumber: "2.1.15",
+      ahnika: 1,
+      sanskrit: "तदलिङ्गं एकद्रव्यत्वात् कर्मणः॥",
+      transliteration: "tadaliṅgaṁ ekadravyactvāt karmaṇaḥ ||",
+      translation:
+        "But physical movement alone is not the definitive signature of Ether, because movement belongs strictly to the individual moving body, not to the space around it.",
+      commentary:
+        "A brilliant qualification of mechanical properties. When a ball moves through a room, the 'action' of moving belongs strictly to the ball's boundaries (as established in 1.1.17), not to the room.",
+      philosophy:
+        "Isolates hosting fields from kinetic elements. Space does not move; it hosts movement. Therefore, to prove Space exists as a real substance, we cannot just look at moving matter—we must find a unique, stationary property that belongs explicitly to Space itself.",
+      viewpoint: {
+        how_people_think:
+          "When an arrow flies through the air, the surrounding space itself is actively moving along with the arrow.",
+        the_reality_is:
+          "Kanada clarifies that motion is entirely local to the object. Space remains a completely stationary, frictionless medium. To find its true signature, we must look elsewhere—at the physics of Sound.",
+      },
+    },
+    {
+      id: "v-2-1-16",
+      verseNumber: "2.1.16",
+      ahnika: 1,
+      sanskrit: "शब्दश्चास्पर्शवतोऽप्यनित्यत्वात् न पृथिव्यादिगुणः॥",
+      transliteration: "śabdaścāsparśavato'pyanityatvāt na pṛthivyādiguṇaḥ ||",
+      translation:
+        "Sound is not a quality of Earth, Water, Fire, or Air, because it is transient and manifests even without tactile contact.",
+      commentary:
+        "Kanada begins the elimination. The qualities of atomic elements (like the color of a pot) last as long as the object does. Sound, however, is a momentary wave that vanishes instantly after production, proving it operates on completely different mechanics.",
+      philosophy:
+        "A major step in acoustic physics. Sound (*Shabda*) is transient (*anitya*) and travels through a medium without requiring the solid, tangible surfaces of Earth or Water to sustain its existence.",
+      viewpoint: {
+        how_people_think:
+          "Sound is a physical, solid property trapped inside stones or wood, just like their color or density.",
+        the_reality_is:
+          "Vaisheshika shows that sound is a dynamic, transient property. It is produced by impact but does not reside permanently within atomic matter like mass or color do.",
+      },
+    },
+    {
+      id: "v-2-1-17",
+      verseNumber: "2.1.17",
+      ahnika: 1,
+      sanskrit: "परत्र समवायात्प्रत्यक्षत्वाच्च न मनसः॥",
+      transliteration: "paratra samavāyātpratyakṣatvācca na manasaḥ ||",
+      translation:
+        "And Sound is not a quality of the Mind, because it is perceived externally, whereas mental qualities are perceived internally.",
+      commentary:
+        "Sound cannot be a psychological property of the internal Mind (*Manas*). Mental attributes like desire, pain, or thought are entirely subjective and internal, while sound waves are picked up by an external sensory organ (the ear) and can be heard by multiple observers simultaneously.",
+      philosophy:
+        "Distinguishing objective physics from subjective psychology. Sound possesses objective space metrics. It exists out in the open environment, meaning it requires an external spatial medium, not an internal mental container.",
+      viewpoint: {
+        how_people_think:
+          "Sound is entirely an internal illusion created by your mind, with no objective wave presence in the outside world.",
+        the_reality_is:
+          "Kanada proves sound is an external reality. It relies on an external substrate because it is a publicly perceivable physical event that operates outside our personal thoughts.",
+      },
+    },
+    {
+      id: "v-2-1-18",
+      verseNumber: "2.1.18",
+      ahnika: 1,
+      sanskrit: "परिशेषाल्लिङ्गमाकाशस्य॥",
+      transliteration: "pariśeṣālliṅgamākāśasya ||",
+      translation:
+        "By logical elimination, Sound is proved to be the unique, distinguishing signature of Ether (Space).",
+      commentary:
+        "The climax of the argument. Since sound is proven to be a quality, it must belong to a substance (as properties cannot exist in a vacuum). Having eliminated Earth, Water, Fire, Air, and Mind, the only remaining candidate is the omnipresent continuum of Space (*Akasha*).",
+      philosophy:
+        "The method of exclusion (*Parishesha Anumana*). If a property exists but cannot be hosted by eight of the nine fundamental substances, the existence of the ninth substance is mathematically and logically proven. Sound is the sonic property of Space itself.",
+      viewpoint: {
+        how_people_think:
+          "Space is completely empty nothingness that cannot possess any real physical properties or signatures.",
+        the_reality_is:
+          "Vaisheshika defines Space as a real, continuous substance. Sound waves are the observable vibrations traveling directly through this spatial fabric, making acoustics the scientific proof of Space.",
+      },
+    },
+    {
+      id: "v-2-1-19",
+      verseNumber: "2.1.19",
+      ahnika: 1,
+      sanskrit: "द्रव्यत्वनित्यत्वे वायुना व्याख्याते॥",
+      transliteration: "dravyatvanityatve vāyunā vyākhyāte ||",
+      translation:
+        "Its status as a Substance and its Eternaity are explained by the same logic used for Air.",
+      commentary:
+        "Just as we proved Air is an independent substance because it hosts unique attributes (Touch), Space is a real substance because it hosts Sound. Furthermore, because Space is continuous and cannot be broken down into smaller constituent particles, its baseline fabric is structurally indestructible (eternal).",
+      philosophy:
+        "The structural conservation of non-atomic fields. Compounds are temporary because their parts can separate. Since Space is a seamless, absolute continuum with no atomic joints, it can never be broken apart, making it an eternal component of the universe.",
+      viewpoint: {
+        how_people_think:
+          "Space can be cracked, broken, or chemically dissolved into pieces over time.",
+        the_reality_is:
+          "Kanada asserts that space has no joints or constituent particles to separate. Forms inside it break, but the foundational field is continuous and indestructible.",
+      },
+    },
+    {
+      id: "v-2-1-20",
+      verseNumber: "2.1.20",
+      ahnika: 1,
+      sanskrit: "तत्त्वं चानवत्त्वात्॥",
+      transliteration: "tattvaṁ cānavattvāt ||",
+      translation:
+        "And Ether is absolute Unity, because its unique attribute (Sound) shows no structural variation in its baseline medium.",
+      commentary:
+        "While substances like Earth or Water have countless separate variations (different rocks, different rivers), Space is a singular, undivided cosmos. There are no boundaries separating 'one space' from 'another space'.",
+      philosophy:
+        "The physics of a singular field. Vaisheshika notes that while we create verbal boundaries (like 'the space inside a pot' versus 'the space outside'), these are purely functional markers (upadhi). Ontologically, Space is a single, unbroken field that runs through the entire universe.",
+      viewpoint: {
+        how_people_think:
+          "Every room or container contains a completely different, independent brand-new instance of space.",
+        the_reality_is:
+          "Kanada shows that space is an undivided whole. A wall does not chop space into pieces; it merely sits inside a single, massive, universal continuum.",
+      },
+    },
+    {
+      id: "v-2-1-21",
+      verseNumber: "2.1.21",
+      ahnika: 1,
+      sanskrit: "पुष्पवस्त्रयोः सति संकर्षे गुणान्तरप्रादुर्भावो दृष्टः॥",
+      transliteration:
+        "puṣpavastrayoḥ sati saṅkarṣe guṇāntaraprādurbhāvo dṛṣṭaḥ ||",
+      translation:
+        "When a flower and a cloth are brought into close proximity, the transfer and appearance of a new quality (fragrance) is directly observed.",
+      commentary:
+        "Kanada presents an empirical study on cross-contamination and proximity effects. A clean cloth absorbs the scent of a flower purely through spatial proximity and material contact.",
+      philosophy:
+        "A baseline mechanical observation to set up relativity. In Vaisheshika physics, attributes can be transferred or triggered purely through relational proximity (sannikarsha), where independent entities interact across a shared coordinates system.",
+      viewpoint: {
+        how_people_think:
+          "A cloth changes its scent spontaneously by magic, without requiring physical proximity or particle transfer from an outside source.",
+        the_reality_is:
+          "Kanada proves that changes in an object's properties are strictly relational. They require mechanical proximity and proximity-based interaction within a shared environment.",
+      },
+    },
+    {
+      id: "v-2-1-22",
+      verseNumber: "2.1.22",
+      ahnika: 1,
+      sanskrit: "अपरस्मिन्नपरं युगपच्चिरं क्षिप्रमिति काललिङ्गानि॥",
+      transliteration:
+        "aparasminnaparaṁ yugapacciṛaṁ kṣipramiti kālaliṅgāni ||",
+      translation:
+        "The perceptions of 'posteriority' (older), 'priority' (younger), 'simultaneity', 'slowness', and 'quickness' are the distinguishing signatures of Time.",
+      commentary:
+        "This is Kanada's core definition of Time (Kala). We track time as an objective substance because we observe structural changes in matter that can only be measured relatively using sequential metrics.",
+      philosophy:
+        "Time as an objective metric of change. Time is not a mental illusion in Vaisheshika; it is a real, all-pervading substance that acts as the universal clock or background engine governing the lifespans, velocities, and decay rates of all temporary material compounds.",
+      viewpoint: {
+        how_people_think:
+          "Time is a completely imaginary human concept that has no real, objective existence out in the physical universe.",
+        the_reality_is:
+          "Vaisheshika defines Time as an objective reality. It is the indispensable physical baseline required to calculate relational motion, velocity variations, and structural aging across matter.",
+      },
+    },
+    {
+      id: "v-2-1-23",
+      verseNumber: "2.1.23",
+      ahnika: 1,
+      sanskrit: "द्रव्याण्व्यवत्त्वान्नित्यत्वं वायुना व्याख्यातम्॥",
+      transliteration: "dravyāṇvyavattvānnityatvaṁ vāyunā vyākhyātam ||",
+      translation:
+        "Its status as a Substance and its Eternity are explained by the same logic used for Air and Space.",
+      commentary:
+        "Just like Vayu and Akasha, Time (Kala) is recognized as an independent substance because it hosts a unique set of specific tracking signatures. Furthermore, because it is an unbroken continuum not made of separate combining particles, it cannot be physically dismantled, making it eternal.",
+      philosophy:
+        "The eternity of non-atomic constants. A substance made of parts can break when those parts separate. Because Time is a seamless, infinite cosmic field that lacks atomic joints, it remains completely indestructible.",
+      viewpoint: {
+        how_people_think:
+          "Time is made of tiny, physical ticking particles or mechanical strings that can be shattered or chemically corroded.",
+        the_reality_is:
+          "Kanada shows that Time is an absolute, non-material cosmic field. It has no structural seams or constituent components, meaning it is an indestructible, permanent axis of existence.",
+      },
+    },
+    {
+      id: "v-2-1-24",
+      verseNumber: "2.1.24",
+      ahnika: 1,
+      sanskrit: "तत्त्वं चानवत्त्वात्॥",
+      transliteration: "tattvaṁ cānavattvāt ||",
+      translation:
+        "And Time is absolute Unity, because its tracking attributes show no structural variations in its baseline medium.",
+      commentary:
+        "We use conversational labels like 'hours', 'days', or 'years', but these are purely functional slices (upadhis) that humans map out based on solar movements. Ontologically, Time is a singular, undivided cosmic field.",
+      philosophy:
+        "The physics of a singular temporal field. Time does not exist in disjointed pockets. The same uniform temporal axis runs simultaneously through all coordinates in the universe, providing a synchronized background framework for causality.",
+      viewpoint: {
+        how_people_think:
+          "Past, present, and future are completely separate, physical rooms or different worlds sitting out in space.",
+        the_reality_is:
+          "Vaisheshika notes that Time is a single, unbroken current. The labels 'past' or 'future' are just relative measurements mapping an object's structural changes along a single temporal axis.",
+      },
+    },
+    {
+      id: "v-2-1-25",
+      verseNumber: "2.1.25",
+      ahnika: 1,
+      sanskrit: "इत इदमिति यतस्तद्दिशो लिङ्गम्॥",
+      transliteration: "ita idamiti yatastaddiśo liṅgam ||",
+      translation:
+        "The perception of 'this is to the east of that' or 'this is relative to that location' is the distinguishing signature of Direction (Spatial Orientation).",
+      commentary:
+        "Kanada introduces the eighth substance: Direction/Space Configuration (Dik). It is the objective cosmic framework that allows us to map out relative spatial coordinates, distances, and vectors between independent physical bodies.",
+      philosophy:
+        "The physics of relative positioning. While Akasha acts as the material medium that hosts sound waves, Dik is the non-material, objective geometric grid that establishes relative positions (East, West, Above, Below) between objects.",
+      viewpoint: {
+        how_people_think:
+          "Directions like 'East' or 'West' are magical, absolute lines painted permanently onto the physical sky by nature.",
+        the_reality_is:
+          "In Vaisheshika, direction is strictly geometric and relative. Dik is the objective universal grid that allows the human mind to calculate spatial metrics and orientations between objects based on a common anchor (like the rising sun).",
+      },
+    },
+    {
+      id: "v-2-1-26",
+      verseNumber: "2.1.26",
+      ahnika: 1,
+      sanskrit: "द्रव्यत्वनित्यत्वे वायुना व्याख्याते॥",
+      transliteration: "drvayatvanityatve vāyunā vyākhyāte ||",
+      translation:
+        "Its status as a Substance and its Eternity are explained by the same logic used for Air, Space, and Time.",
+      commentary:
+        "Direction or Spatial Orientation (Dik) is classified as an independent substance because it possesses a unique relational function. Because it is a seamless continuum without constituent parts, it cannot be physically disassembled, making it eternal.",
+      philosophy:
+        "The spatial grid is a permanent reality. Compounds break apart because they are made of pieces; the universal coordinate frame lacks any constituent joints, making it an immutable, indestructible feature of the universe.",
+      viewpoint: {
+        how_people_think:
+          "Space coordinates are physical objects that can bend, chip, or be structurally broken into pieces.",
+        the_reality_is:
+          "Kanada showcases that the universal geometric frame is an absolute, non-material background grid. It lacks physical seams, ensuring structural permanence across existence.",
+      },
+    },
+    {
+      id: "v-2-1-27",
+      verseNumber: "2.1.27",
+      ahnika: 1,
+      sanskrit: "तत्त्वं चानवत्त्वात्॥",
+      transliteration: "tattvaṁ cānavattvāt ||",
+      translation:
+        "And Direction is an absolute Unity, because its unique coordinating function shows no structural variations in its baseline medium.",
+      commentary:
+        "Terms like 'East', 'West', 'North', or 'South' are relative human designations (upadhis) derived from solar reference points. Ontologically, the directional grid is a single, unbroken universal medium.",
+      philosophy:
+        "The unity of the spatial coordinate grid. The framework does not exist in fractured, isolated patches. A singular uniform matrix of positioning runs concurrently through all existing matter.",
+      viewpoint: {
+        how_people_think:
+          "East and West are completely separate, independent dimensional zones or separate sheets of reality.",
+        the_reality_is:
+          "Vaisheshika views the directional grid as an undivided whole. The markers we use are purely functional references mapped onto a singular, continuous geometric continuum.",
+      },
+    },
+    {
+      id: "v-2-1-28",
+      verseNumber: "2.1.28",
+      ahnika: 1,
+      sanskrit: "आदित्यसंयोगाद्भूतपूर्वाद्भविष्यतो भूताच्च प्राची॥",
+      transliteration: "ādityasaṁyogādbhūtapūrvādbhaviṣyato bhūtācca prācī ||",
+      translation:
+        "The direction where the conjunction of the Sun first occurred, is occurring, or will occur is defined as the East.",
+      commentary:
+        "Kanada grounds relative geometry in solar tracking. The label 'East' is defined using the relational vector of the rising sun across the coordinate grid.",
+      philosophy:
+        "Relational calibration. The absolute medium of Direction requires a uniform cosmic reference point to become practically useful for observers. The sun provides that standard baseline for mechanical orientation.",
+      viewpoint: {
+        how_people_think:
+          "Directions are absolute spiritual pathways written onto the sky that exist independently of stellar bodies.",
+        the_reality_is:
+          "Vaisheshika defines direction via observational astronomy and mechanics. East is simply a coordinate vector calculated using the trajectory of the sun across our position.",
+      },
+    },
+    {
+      id: "v-2-1-29",
+      verseNumber: "2.1.29",
+      ahnika: 1,
+      sanskrit: "तथा दक्षिणा प्रतीची उदीची च॥",
+      transliteration: "tathā dakṣiṇā pratīcī udīcī ca ||",
+      translation:
+        "By the same solar reference point, the South, the West, and the North are sequentially calculated.",
+      commentary:
+        "Once the primary orientation vector (East) is established, the rest of the 2D coordinate axis follows a precise, rule-based mathematical rotation.",
+      philosophy:
+        "The systemic construction of an spatial coordinate system. Once you lock in a single steady directional reference, the remaining relative quadrants are mechanically determined.",
+      viewpoint: {
+        how_people_think:
+          "North, South, and West are completely separate, floating concepts that have no mathematical relation to the East.",
+        the_reality_is:
+          "Kanada treats them as an integrated geometric compass. They are systematic rotations built entirely from our initial solar baseline calculations.",
+      },
+    },
+    {
+      id: "v-2-1-30",
+      verseNumber: "2.1.30",
+      ahnika: 1,
+      sanskrit: "एतेन दिगन्तरालाणि व्याख्यातानि॥",
+      transliteration: "etena digantarālāṇi vyākhyātāni ||",
+      translation:
+        "By this method, the intermediate directions (such as South-East, North-West, etc.) are fully explained.",
+      commentary:
+        "The sub-quadrants or intermediate angles on the coordinate grid are calculated by dividing the primary relational vectors.",
+      philosophy:
+        "The infinite scalability of geometry. Kanada demonstrates that his coordinate framework can scale to map any sub-angle or trajectory in space simply by subdividing the relational inputs.",
+      viewpoint: {
+        how_people_think:
+          "Intermediate directions are random, unique, unmeasurable zones that operate outside standard physics rules.",
+        the_reality_is:
+          "Vaisheshika maps them as simple vector combinations. Intermediate directions are logical segments calculated cleanly on a continuous coordinate plane.",
+      },
+    },
+    {
+      id: "v-2-1-31",
+      verseNumber: "2.1.31",
+      ahnika: 1,
+      sanskrit: "सामन्यप्रत्यक्षाद्विशेषाप्रत्यक्षाच्च संशयः॥",
+      transliteration: "sāmānyapratyakṣādviśeṣāप्रत्यक्षच्च saṁśayaḥ ||",
+      translation:
+        "Doubt arises when we perceive the common characteristics of an object but fail to perceive its unique, distinguishing attributes.",
+      commentary:
+        "Kanada introduces a fundamental rule of epistemology (theory of knowledge): error and doubt occur because different objects can share identical macro-traits under vague conditions.",
+      philosophy:
+        "The mechanics of cognitive ambiguity. Doubt is not a mystical veil; it is a structural failure of data resolution. When your eyes see a tall, vertical outline at twilight, it could be a post or a human because both share the generality of 'tall verticality'—only isolating a particularity resolves the doubt.",
+      viewpoint: {
+        how_people_think:
+          "Doubt or confusion is a magical trick played on our minds by hostile external illusions.",
+        the_reality_is:
+          "Vaisheshika analyzes doubt as an information bottleneck: it is a purely logical state that happens when our senses capture shared generalities but miss the exact micro-particularities needed for precise identification.",
+      },
+    },
+    {
+      id: "v-2-2-1",
+      verseNumber: "2.2.1",
+      ahnika: 2, // 👈 True start of Ahnika 2!
+      sanskrit:
+        "पुष्पवस्त्रयोः सति संकर्षे गन्धप्रतिपत्तिः पृथिव्यां च गन्धाभावात्॥",
+      transliteration:
+        "puṣpavastrayoḥ sati saṅkarṣe gandhapratipattiḥ pṛthivyaṁ ca gandhābhāvāt ||",
+      translation:
+        "The perception of fragrance in a cloth when brought into contact with a flower proves that smell originates from Earth particles, as the cloth itself naturally lacks smell.",
+      commentary:
+        "Kanada revisits particle transmission. The cloth only picks up a scent because microscopic atomic elements of solid matter (Earth/Flower particles) physically migrate and embed themselves into the cloth's fiber weave.",
+      philosophy:
+        "An early mechanical model of molecular dispersion. Scents do not travel as abstract, detached spiritual essences; they travel via tiny, physical particulate bodies of solid matter moving through space.",
+      viewpoint: {
+        how_people_think:
+          "Smell is a non-physical, magical radiation that travels separate from material particles.",
+        the_reality_is:
+          "Vaisheshika maps olfaction purely to material transport: a scent is caught only because physical atomic clusters of Earth break away and bond to a neighboring substrate.",
+      },
+    },
+    {
+      id: "v-2-2-2",
+      verseNumber: "2.2.2",
+      ahnika: 2,
+      sanskrit: "व्यवस्थितः पृथिव्यां गन्धः॥",
+      transliteration: "vyavasthitaḥ pṛthivyiāṁ gandhaḥ ||",
+      translation:
+        "Smell is exclusively and permanently established in Earth alone.",
+      commentary:
+        "Kanada asserts that out of all elements, only the solid state of matter (*Pṛthivī*) serves as the native, inherent host for the attribute of odor.",
+      philosophy:
+        "Isolating primary properties. While we might smell something inside water or air, those are always temporary mixtures. The foundational property of smell belongs exclusively to the molecular framework of solid matter.",
+      viewpoint: {
+        how_people_think:
+          "Air, water, and fire all possess their own unique, natural brands of native smell.",
+        the_reality_is:
+          "Kanada clarifies that pure water and pure gas are chemically odorless. Any smell detected within them is due to micro-solids of Earth being suspended in the mixture.",
+      },
+    },
+    {
+      id: "v-2-2-3",
+      verseNumber: "2.2.3",
+      ahnika: 2,
+      sanskrit: "एतेन रसोरूपं स्पर्शश्च व्याख्याताः॥",
+      transliteration: "etena rasorūpaṁ sparśaśca vyākhyātāḥ ||",
+      translation:
+        "By this principle, the unique, native distributions of Taste, Color, and Touch across the elements are also systematically determined.",
+      commentary:
+        "Just as smell is locked inherently to Earth, the remaining sensory properties have specific, native assignments (e.g., Taste naturally belongs to Water, Luminosity to Fire, tactile presence to Air).",
+      philosophy:
+        "Establishing baseline physical matrices. Every fundamental element has a fixed, non-negotiable chemical configuration of traits that defines its behavior in the natural world.",
+      viewpoint: {
+        how_people_think:
+          "The physical traits of elements are completely chaotic and mutate randomly based on human whim.",
+        the_reality_is:
+          "Vaisheshika defines traits via strict structural constants. Elements have static property templates that remain uniform throughout cosmic operations.",
+      },
+    },
+    {
+      id: "v-2-2-4",
+      verseNumber: "2.2.4",
+      ahnika: 2,
+      sanskrit: "तेजसः परमौष्ण्यं तस्य लक्षणम्॥",
+      transliteration: "tejasaḥ paramauṣṇyaṁ tasya lakṣaṇam ||",
+      translation:
+        "Absolute, intense heat is the unique, identifying characteristic of Fire.",
+      commentary:
+        "While other elements like earth or water can *become* hot when heated, Fire (*Tejas*) is the only substance whose inner nature is heat itself.",
+      philosophy:
+        "Distinguishing inherent traits from induced states. A hot stone is merely a temporary holder of heat; it will cool down. Fire is the heat generator itself, acting as the absolute thermal benchmark in physics.",
+      viewpoint: {
+        how_people_think:
+          "A hot bowl of soup has the exact same intrinsic right to the quality of heat as a burning fire.",
+        the_reality_is:
+          "Kanada separates the source from the vessel: soup is borrowing thermal energy, while Fire is the primary substance whose structural code *is* heat.",
+      },
+    },
+    {
+      id: "v-2-2-5",
+      verseNumber: "2.2.5",
+      ahnika: 2,
+      sanskrit: "अप्सु शीतता॥",
+      transliteration: "apsu śītatā ||",
+      translation:
+        "Absolute, natural coolness is the unique, identifying characteristic of Water.",
+      commentary:
+        "Similarly, baseline coldness is the intrinsic, unborrowed signature property of the liquid state of matter (*Āpas*).",
+      philosophy:
+        "Thermal baselines. Just as Fire represents the positive thermal benchmark, pure Water represents the native negative thermal standard. Boiling water is an induced state that will naturally drop back to cold when the fire's influence leaves.",
+      viewpoint: {
+        how_people_think:
+          "Water becomes naturally hot on its own if left alone in a dark room long enough.",
+        the_reality_is:
+          "Vaisheshika proves that water's natural home state is cold. Heat is an outside intruder; once that external energy input runs out, the water returns to its natural cold state.",
+      },
+    },
+    {
+      id: "v-2-2-6",
+      verseNumber: "2.2.6",
+      ahnika: 2,
+      sanskrit: "नित्यः पृथिव्याम् रूपरसगन्धस्पर्शाः कारणगुणपूर्वकृत्वात्॥",
+      transliteration:
+        "nityaḥ pṛthivyām rūparasagandhasparśāḥ kāraṇaguṇapūrvakṛtvāt ||",
+      translation:
+        "The attributes of Color, Taste, Smell, and Touch in the eternal primal atoms of Earth are constant, because the qualities of the effect are always preceded by the qualities of the cause.",
+      commentary:
+        "Kanada sets up the rule of property inheritance for foundational matter. The macro-world has traits because the microscopic, indestructible primal atoms (*Paramanus*) contain those traits inherently.",
+      philosophy:
+        "The preservation of elemental properties at the atomic scale. Primal atoms do not lose their structural code. The reason a macro-object built of earth can be touched, smelled, or seen is because its sub-atomic components carry these properties across compound states.",
+      viewpoint: {
+        how_people_think:
+          "Primal components are completely blank, traitless clouds that magically generate physical properties only when they form huge objects.",
+        the_reality_is:
+          "Vaisheshika asserts that properties are anchored at the deepest micro-level. The primary attributes of Earth are structurally hardcoded into its individual atoms, ensuring material continuity.",
+      },
+    },
+    {
+      id: "v-2-2-7",
+      verseNumber: "2.2.7",
+      ahnika: 2,
+      sanskrit: "एतेनापरं व्याख्यातम्॥",
+      transliteration: "etenāparaṁ vyākhyātam ||",
+      translation:
+        "By this very rule, the eternal, constant properties of the primal atoms of Water, Fire, and Air are also fully explained.",
+      commentary:
+        "Applies the atomic property rule universally down the elemental table. The primal atoms of water are inherently cool and fluid; fire atoms are inherently bright and hot; air atoms are inherently tactile.",
+      philosophy:
+        "The foundational stability of physical laws. Vaisheshika builds its entire physical realism on the fact that the building blocks of reality have fixed, unalterable identities that survive throughout cosmic shifts.",
+      viewpoint: {
+        how_people_think:
+          "A water atom can spontaneously mutate its internal traits and become a fire atom with zero external factors.",
+        the_reality_is:
+          "Kanada denies random elemental mutation. The foundational building blocks of each element have distinct identities, keeping the laws of physics reliable and steady.",
+      },
+    },
+    {
+      id: "v-2-2-8",
+      verseNumber: "2.2.8",
+      ahnika: 2,
+      sanskrit: "अग्निसंयोगात्तु अनित्ये गुणान्तरप्रादुर्भावः पाकजः॥",
+      transliteration: "agnisaṁyogāttu anitye guṇāntaraprādurbhāvaḥ pākajaḥ ||",
+      translation:
+        "But in temporary, non-eternal compound objects of Earth, contact with fire causes a complete restructuring of attributes through baking (Pakaja).",
+      commentary:
+        "The birth of chemical transformation (*Paka*). When a raw clay pot is placed in a high-temperature kiln, the extreme thermal energy breaks down its properties, changing its color from black to red and modifying its structural density.",
+      philosophy:
+        "The physics of chemical bonding and thermal alteration. While primal atoms retain their baseline nature, high-energy thermal impact (*Agni-samyoga*) disrupts the molecular configurations of compound matter, destroying old attributes and synthesizing brand-new macroscopic qualities.",
+      viewpoint: {
+        how_people_think:
+          "When clay changes color in a kiln, a spiritual entity flies inside the clay to repaint it from the inside out.",
+        the_reality_is:
+          "Vaisheshika explains it via thermodynamics: extreme heat acts as a mechanical catalyst, breaking old structural joints and forcing atoms to realign into a new profile of properties.",
+      },
+    },
+    {
+      id: "v-2-2-9",
+      verseNumber: "2.2.9",
+      ahnika: 2,
+      sanskrit: "एकद्रव्यत्वान्न रूपं शब्दवत्॥",
+      transliteration: "ekadravyactvānnā rūpaṁ śabdavat ||",
+      translation:
+        "Color cannot travel or propagate away from its individual substance the way sound waves travel through space.",
+      commentary:
+        "Kanada highlights an architectural contrast between optics and acoustics. A red color is locked inside the boundary of the pot; it cannot detach and drift through the room. Sound, however, is a dynamic ripple that constantly leaves its source to travel across the spatial field.",
+      philosophy:
+        "The difference between bound properties and wave propagation. Visual qualities (*Rupa*) are structurally anchored to the physical limits of a substance. Sound (*Shabda*), being an attribute of the continuous field of Space, acts as a progressive chain of echoes that moves away from the initial collision point.",
+      viewpoint: {
+        how_people_think:
+          "The actual color red leaves a solid object and physically flies across the room to hit your eyes the exact same way sound waves travel.",
+        the_reality_is:
+          "Kanada keeps a clean line: color stays bound to its material body, while sound travels through the surrounding space as a wave mechanism.",
+      },
+    },
+    {
+      id: "v-2-2-10",
+      verseNumber: "2.2.10",
+      ahnika: 2,
+      sanskrit: "अपरस्मिन्नपरं युगपच्चिरं क्षिप्रमिति काललिङ्गानां च विशेषः॥",
+      transliteration:
+        "aparasminnaparaṁ yugapacciṛaṁ kṣipramiti kālaliṅgānāṁ ca viśeṣaḥ ||",
+      translation:
+        "The sequential metrics of 'older', 'younger', 'simultaneous', and 'fast' are the specific markers that confirm Time acts as a distinct, governing cause behind all material changes.",
+      commentary:
+        "Kanada links thermodynamics and chemical transformations back to the absolute axis of Time. Structural modifications and velocity profiles require a continuous chronological platform to be measured accurately.",
+      philosophy:
+        "Time as the ultimate coordinator of physical change. The atomic transitions and macro-level baking discussed in previous verses do not happen in a vacuum; they unfold across a universal timeline that regulates structural decay, speed variations, and causal order.",
+      viewpoint: {
+        how_people_think:
+          "Physical change and chemical reactions can occur outside of time, without any relation to sequence or duration.",
+        the_reality_is:
+          "Vaisheshika maps time as a crucial physical coordinate. Every chemical phase shift, velocity change, or aging process is an explicit confirmation of an objective temporal axis tracking reality.",
+      },
+    },
+    {
+      id: "v-2-2-11",
+      verseNumber: "2.2.11",
+      ahnika: 2,
+      sanskrit: "एतेन दिक ् व्याख्याता॥",
+      transliteration: "etena dik vyākhyātā ||",
+      translation:
+        "By this very logic, the uniform nature of Direction as a single, absolute coordinate framework is also fully established.",
+      commentary:
+        "Just as relative chronological markers do not split Time into fragmented parts, relative regional markers (like North or South) do not break the absolute unity of Direction (Dik).",
+      philosophy:
+        "The integrity of field constants. External human reference frames shift continuously, but the baseline geometric coordinates matrix that enables relative positioning remains a singular, immutable field.",
+      viewpoint: {
+        how_people_think:
+          "Every separate country or cardinal direction operates in its own isolated sheet of geometry.",
+        the_reality_is:
+          "Kanada showcases that all physical locations share a singular, unified spatial coordinate grid; human orientation labels are simply relative markers used to map this uniform medium.",
+      },
+    },
+    {
+      id: "v-2-2-12",
+      verseNumber: "2.2.12",
+      ahnika: 2,
+      sanskrit: "कर ्मभिर ्विशेषितः कालः॥",
+      transliteration: "karmabhirviśeṣitaḥ kālaḥ ||",
+      translation:
+        "Time becomes differentiated and labeled in common language solely through its association with specific cosmic actions or motions.",
+      commentary:
+        "Kanada explains how we calculate dates and intervals. The single current of Time is sliced into usable measurements (seconds, seasons, years) by tracking repeating physical movements, like the orbit of the earth or the trajectory of the sun.",
+      philosophy:
+        "The operational relationship between Time and Motion. Time is a smooth, undivided continuum. To extract practical data from it, human intelligence observes cyclic movements (*Karma*) to calibrate intervals and construct operational timelines.",
+      viewpoint: {
+        how_people_think:
+          "Seasons, minutes, and hours are literal physical walls or objects floating independently down a timeline.",
+        the_reality_is:
+          "Vaisheshika shows that temporal divisions are relational metrics; we slice an absolute timeline into segments by tracking the reliable, repeating movements of celestial bodies.",
+      },
+    },
+    {
+      id: "v-2-2-13",
+      verseNumber: "2.2.13",
+      ahnika: 2,
+      sanskrit: "व ्यपदेशाभावात् प्रमितं कालम ्॥",
+      transliteration: "vyapadeśābhāvāt pramitaṁ kālam ||",
+      translation:
+        "Because without these concrete physical movements as reference anchors, the absolute current of Time cannot be assigned distinct names or measurements.",
+      commentary:
+        "In a total void devoid of all kinetic activity or cyclic changes, Time would remain a featureless, unmeasurable infinity.",
+      philosophy:
+        "The empirical necessity of markers. While Time exists objectively as a fundamental field, it remains completely unquantifiable to an observer unless structural change or spatial movement provides a baseline to measure duration.",
+      viewpoint: {
+        how_people_think:
+          "You can measure the exact duration of an interval even if every atom, light ray, and movement in the entire universe stops completely.",
+        the_reality_is:
+          "Kanada proves that measurement requires motion. Without a moving physical reference—like a ticking clock or a celestial orbit—the infinite current of time cannot be indexed by human logic.",
+      },
+    },
+    {
+      id: "v-2-2-14",
+      verseNumber: "2.2.14",
+      ahnika: 2,
+      sanskrit: "तत ् त ्वं चानवत ्त ्वान् न द रव ्यगुणकर ्मसु॥",
+      transliteration: "tattvaṁ cānavattvān na dravyaguṇakarmasu ||",
+      translation:
+        "Therefore, Time is a singular entity, distinct from Substance, Quality, and Action, because its fundamental nature does not change based on these temporary variables.",
+      commentary:
+        "Reinforces the ontological sovereignty of Time. Objects degrade, traits switch values, and kinetic trajectories stop, but the background temporal field remains a permanent, unchanging constant.",
+      philosophy:
+        "Isolating the temporal baseline. Time cannot be downgraded to a mere byproduct of matter or a property of actions. It stands as an independent container that remains completely unaffected by the material mutations unfolding inside it.",
+      viewpoint: {
+        how_people_think:
+          "If all physical objects in a room are destroyed, the temporal coordinate hosting that room is also completely annihilated.",
+        the_reality_is:
+          "Vaisheshika defines fields as indestructible. Forms break down and change inside time, but the underlying timeline itself is an absolute constant that can never be disrupted.",
+      },
+    },
+    {
+      id: "v-2-2-15",
+      verseNumber: "2.2.15",
+      ahnika: 2,
+      sanskrit: "कर ्मभिर ्विशेषिता दिक ्॥",
+      transliteration: "karmabhirviśeṣitā dik ||",
+      translation:
+        "Similarly, Direction becomes differentiated and mapped into distinct quadrants solely through its association with localized movements and reference anchors.",
+      commentary:
+        "Just as cyclic movements define time intervals, regional vectors (like East or West) are calculated relative to physical landmarks or celestial movements, like the arc of the sun.",
+      philosophy:
+        "The situational calibration of space. The absolute directional framework requires a steady reference point to become useful for observers. Geometry is real, but its coordinate points are mapped out using physical anchors.",
+      viewpoint: {
+        how_people_think:
+          "The cardinal directions exist as independent, mystical entities that have absolutely no relation to the position of the sun or stars.",
+        the_reality_is:
+          "Kanada anchors geometry to astronomy. Direction is a single background continuum, and we draw practical coordinates across it by tracking consistent material movements.",
+      },
+    },
+    {
+      id: "v-2-2-16",
+      verseNumber: "2.2.16",
+      ahnika: 2,
+      sanskrit: "नित्यः शब्दः आकाशागुणत्वात्॥",
+      transliteration: "nityaḥ śabdaḥ ākāśāguṇatvāt ||",
+      translation:
+        "An objection is raised: 'Sound must be eternal, because it is the unique quality of an eternal substance like Space.'",
+      commentary:
+        "Kanada presents a popular counter-argument from rival schools (like the Mimamsakas) who argued that because Space is an indestructible, eternal field, the sound hosted by it must also be eternal and ever-present.",
+      philosophy:
+        "The nature of hosted properties. This verse sets up a philosophical debate on whether a quality must match the structural lifespan of its host substrate. Kanada introduces this premise specifically to deconstruct it in the subsequent verses.",
+      viewpoint: {
+        how_people_think:
+          "Every single attribute belonging to an eternal object must also be permanently frozen and eternal.",
+        the_reality_is:
+          "The text introduces this view to challenge it. Vaisheshika will prove that transient events can manifest inside a permanent field; a canvas can be eternal even if the ripples painted on it last only a moment.",
+      },
+    },
+    {
+      id: "v-2-2-17",
+      verseNumber: "2.2.17",
+      ahnika: 2,
+      sanskrit: "कार्यत्वाच्च॥",
+      transliteration: "kāryatvācca ||",
+      translation:
+        "But Sound is actually non-eternal and transient, because it is an effect produced by a specific mechanical cause.",
+      commentary:
+        "Kanada delivers his counter-proof. Sound cannot be eternal because it has a clear beginning in time; it is an effect (*kārya*) that requires a physical trigger, such as a drumstick striking a drum or an impact between two solid objects.",
+      philosophy:
+        "The rule of causal production. In Vaisheshika logic, anything that is created by a combination of forces or a mechanical impact is inherently finite. Because sound requires an initial production event, it is structurally bound to have a termination point.",
+      viewpoint: {
+        how_people_think:
+          "Sound exists permanently floating out in nature, and our ears simply stumble into it randomly.",
+        the_reality_is:
+          "Kanada proves sound is an actively generated physical event. It is a temporary mechanical byproduct of an energetic collision, meaning it is transient by definition.",
+      },
+    },
+    {
+      id: "v-2-2-18",
+      verseNumber: "2.2.18",
+      ahnika: 2,
+      sanskrit: "तदनित्यत्वं च॥",
+      transliteration: "tadanityatvaṁ ca ||",
+      translation:
+        "And its transience is directly verified because sound visibly fades away and ceases to exist shortly after production.",
+      commentary:
+        "An appeal to direct observation. Once the physical impact or vibration source stops, the resulting sound waves diminish in amplitude and disappear completely, leaving no material residue.",
+      philosophy:
+        "Empirical proof of dissipation. Eternal substances do not experience structural decay or sudden disappearance. Because sound exhibits a clear lifespan—sprouting from an impact, traveling, and then terminating—it is classified as *anitya* (non-eternal).",
+      viewpoint: {
+        how_people_think:
+          "A sound wave travels outward across the universe forever without ever losing its strength or disappearing.",
+        the_reality_is:
+          "Vaisheshika notes that sound has a finite lifespan. It is a transient disturbance in the spatial medium that undergoes mechanical degradation until it drops to zero.",
+      },
+    },
+    {
+      id: "v-2-2-19",
+      verseNumber: "2.2.19",
+      ahnika: 2,
+      sanskrit: "यतोऽनुपलभ्यमानोऽपि संस्पर्शात्प्रकाश्यते तस्मादागमिकः॥",
+      transliteration:
+        "yato'nupalabhyamāno'pi saṁsparśāt prakāśyate tasmādāgamikaḥ ||",
+      translation:
+        "Because even when sound is not actively heard, its potential medium is validated through tactile friction and spatial continuity; therefore, its behavior is aligned with traditional physical testimony.",
+      commentary:
+        "Explains latent potential. Even when a room is completely silent, the underlying medium of Space remains fully intact, ready to transmit waves the moment a mechanical impact occurs.",
+      philosophy:
+        "Field readiness versus active manifestation. A quiet medium does not mean the field has vanished. The capacity to transmit acoustic disturbances is a constant structural feature of Space, waiting for kinetic energy to manifest it.",
+      viewpoint: {
+        how_people_think:
+          "When a room goes dead silent, the entire physical fabric of space has completely evaporated from that area.",
+        the_reality_is:
+          "Kanada clarifies that the canvas outlives the ripple. The sound wave vanishes, but the unmoving, continuous spatial medium remains permanently available to host future acoustic events.",
+      },
+    },
+    {
+      id: "v-2-2-20",
+      verseNumber: "2.2.20",
+      ahnika: 2,
+      sanskrit: "सतोऽभिव्यञ्जकस्य दोषात्॥",
+      transliteration: "sato'bhivyañjakasya doṣāt ||",
+      translation:
+        "The inability to perceive a sound is sometimes due to a defect or bottleneck in the medium or the sensory receiver, rather than the non-existence of the sound itself.",
+      commentary:
+        "An early insight into sensory thresholds and acoustic transmission issues. A sound might fail to register either because the distance is too great, an obstruction blocks the medium, or the ear instrument itself has an informational bottleneck.",
+      philosophy:
+        "Isolating human perception limits from objective physics. Vaisheshika notes that physical reality extends beyond immediate human observation. A mechanical wave can travel through a medium, but if it falls outside our structural sensory thresholds, it remains unperceived despite being objectively real.",
+      viewpoint: {
+        how_people_think:
+          "If my individual ears cannot personally hear a specific vibration right now, it means absolutely nothing is happening anywhere in the universe.",
+        the_reality_is:
+          "Kanada separates reality from human limitations. An acoustic event can easily exist in the environment, even if structural obstructions or sensory limits prevent an observer from catching it.",
+      },
+    },
+    {
+      id: "v-2-2-21",
+      verseNumber: "2.2.21",
+      ahnika: 2,
+      sanskrit: "तस्मादप्यनुपपत्तिः॥",
+      transliteration: "tasmādapyanupapattiḥ ||",
+      translation:
+        "Therefore, the argument for the absolute eternality of sound is logically unsustainable.",
+      commentary:
+        "Kanada points out that if sound were an eternal, unchanging fixture of space, it would be heard everywhere at all times simultaneously. Since we only hear sounds locally and temporarily, the eternalist theory collapses under logical scrutiny.",
+      philosophy:
+        "The breakdown of permanent property assertions. For a property to be called absolute and eternal, its manifestation cannot depend on transient mechanical coordinates. Because sound is tightly bound to local coordinates and finite lifespans, it fails the test of eternity.",
+      viewpoint: {
+        how_people_think:
+          "Sound can be absolute, permanent, and infinite while simultaneously acting as a localized, temporary experience.",
+        the_reality_is:
+          "Kanada enforces strict logical consistency: an attribute cannot be both an eternal, omnipresent constant and a localized, temporary phenomenon at the same time.",
+      },
+    },
+    {
+      id: "v-2-2-22",
+      verseNumber: "2.2.22",
+      ahnika: 2,
+      sanskrit: "संख्याभावान्नान्यद्गुणात्॥",
+      transliteration: "saṅkhyābhāvānnānyadguṇāt ||",
+      translation:
+        "Sound is verified as a property (Quality) rather than an independent substance, because it lacks internal numerical multiplicity or parts.",
+      commentary:
+        "An ontological classification check. Sound cannot be its own independent physical substance because it cannot be divided into sub-atomic parts or serve as a material container for other properties. It is a metric or expression hosted entirely by Space.",
+      philosophy:
+        "The structural boundaries of a Quality (*Guna*). Substances are physical frameworks that can combine, split, or hold numerical counts of parts. Sound is a transient phenomenon—a qualitative disturbance that modifies a state rather than a standalone material body.",
+      viewpoint: {
+        how_people_think:
+          "Sound is a physical fluid or material substance that fills a room like water pouring into a cup.",
+        the_reality_is:
+          "Vaisheshika maps it precisely: sound is not a material fluid. It is a structural property—a temporary mechanical vibration ripple hosted inside the all-pervading field of Space.",
+      },
+    },
+    {
+      id: "v-2-2-23",
+      verseNumber: "2.2.23",
+      ahnika: 2,
+      sanskrit: "प्रथमशब्दस्य तदुत्तरशब्दात् परम्परागतविनाशः॥",
+      transliteration:
+        "prathamaśabdasya taduttaraśabdāt paramparāgatavināśaḥ ||",
+      translation:
+        "The initial sound wave is destroyed or superseded by the subsequent sound wave it generates in a chain of succession.",
+      commentary:
+        "This is one of the most astonishing verses in ancient acoustic physics. Kanada describes wave propagation: the initial impact generates a localized sound ripple, which hits adjacent space coordinates to create a second ripple, which then destroys or replaces the first one.",
+      philosophy:
+        "The wave transmission model (*Vici-taranga-nyaya*). Sound travels like ripples across a pond. Each individual wave event triggers a neighboring vibration and then instantly dissipates, establishing a mechanical chain reaction across the spatial medium until the momentum runs out.",
+      viewpoint: {
+        how_people_think:
+          "A single, identical piece of sound physically leaves a speaker's mouth and flies intact through the air to hit a listener's ear 50 feet away.",
+        the_reality_is:
+          "Kanada reveals the true physics of waves: the original sound never travels. It creates a localized compression chain, generating successive replica ripples through space that pass momentum forward while the preceding waves fade behind them.",
+      },
+    },
+    {
+      id: "v-2-2-24",
+      verseNumber: "2.2.24",
+      ahnika: 2,
+      sanskrit: "प्रतिध्वनिः संयोगविभागाभ्यामाकाशे जायते॥",
+      transliteration: "pratidhvaniḥ saṁyogavibhāgābhyāmākāśe jāyate ||",
+      translation:
+        "An echo (Pratidhvani) is produced in Space through the mechanical conjunction and disjunction of sound waves hitting a solid barrier.",
+      commentary:
+        "Kanada explains reflection and echoes. When a propagating wave chain collides with a dense material boundary (like a mountain or wall), the impact forces a structural rebound, generating secondary return waves across the spatial medium.",
+      philosophy:
+        "Acoustic reflection mechanics. Echoes are not magical ghost voices or separate entities; they are the direct, predictable consequences of kinetic impact and rebound (*samyoga* and *vibhaga*) occurring when space waves encounter solid matter.",
+      viewpoint: {
+        how_people_think:
+          "An echo is a mystical spirit or independent entity hiding inside a canyon that mocks human voices for fun.",
+        the_reality_is:
+          "Vaisheshika strips away the myth: an echo is a pure mechanical bounce. Sound waves strike a dense surface and reflect back across the spatial medium, demonstrating standard mechanical laws.",
+      },
+    },
+    {
+      id: "v-2-2-25",
+      verseNumber: "2.2.25",
+      ahnika: 2,
+      sanskrit: "तस्मादनित्यः॥",
+      transliteration: "tasmādanityaḥ ||",
+      translation:
+        "Therefore, Sound is conclusively proven to be non-eternal and transient.",
+      commentary:
+        "Sage Kanada delivers his absolute closing verdict on acoustics. Because sound has a clear beginning, propagates through a finite chain of successive destructions, and completely dissipates over distance, its transient nature is an irrefutable physical fact.",
+      philosophy:
+        "The triumph of rational physics over dogma. By concluding his acoustics study with an unyielding affirmation of transience (*anitya*), Kanada anchors his system to real-world, measurable physics, separating objective natural laws from abstract theological theories.",
+      viewpoint: {
+        how_people_think:
+          "Sound must be eternal because certain words or mantras feel incredibly powerful and timeless to our minds.",
+        the_reality_is:
+          "Kanada keeps physics grounded in reality. The conceptual meaning or impact of a word is an operation of human memory, but the acoustic wave itself is a temporary, physical displacement that dissolves into zero momentum.",
+      },
+    },
+    {
+      id: "v-2-2-26",
+      verseNumber: "2.2.26",
+      ahnika: 2,
+      sanskrit: "व्यञ्जकस्य चानवत्त्वात्॥",
+      transliteration: "vyañjakasya cānavattvāt ||",
+      translation:
+        "Sound is transient also because the physical effort or instrument that manifests it is itself variable and temporary.",
+      commentary:
+        "Kanada targets the triggering conditions. An acoustic event cannot possess permanent eternity when the physical vocal chords or instruments providing the mechanical force are themselves transient and subject to decay.",
+      philosophy:
+        "The reliance of an effect on its triggering framework. A temporary action can never spark an eternal physical property. Since the acoustic trigger has a clear operational limit, the resulting sound wave cannot outlive its energetic input.",
+      viewpoint: {
+        how_people_think:
+          "An transient mechanical action can summon an infinitely running, immortal property out of thin air.",
+        the_reality_is:
+          "Vaisheshika aligns reality to energy conservation: the wave's duration is strictly bound by the finite energy delivered by the structural transmitter.",
+      },
+    },
+    {
+      id: "v-2-2-27",
+      verseNumber: "2.2.27",
+      ahnika: 2,
+      sanskrit: "आकाशस्य शब्दसंयोगात् तदुपपत्तिः॥",
+      transliteration: "ākāśasya śabdasaṁyogāt tadupapattiḥ ||",
+      translation:
+        "Sound is produced specifically from a localized mechanical contact within the spatial medium.",
+      commentary:
+        "Every acoustic event is generated when physical bodies collide and disturb a specific localized set of coordinates in Space.",
+      philosophy:
+        "Acoustics require a spatial coordinate base. Sound waves do not appear out of a non-spatial void; they are mechanical impacts occurring directly on the elastic canvas of the spatial field.",
+      viewpoint: {
+        how_people_think:
+          "Sound exists completely detached from physical space coordinates, floating inside an imaginary semantic cloud.",
+        the_reality_is:
+          "Kanada proves that sound is a highly localized event. It requires direct mechanical contact with the spatial continuum to initialize its propagation chain.",
+      },
+    },
+    {
+      id: "v-2-2-28",
+      verseNumber: "2.2.28",
+      ahnika: 2,
+      sanskrit: "दोषात्तु अप्रतिपत्तिः॥",
+      transliteration: "doṣāttu apratipattiḥ ||",
+      translation:
+        "The failure to track a sound wave is strictly due to environmental degradation or sensory tracking defects.",
+      commentary:
+        "If a sound wave vanishes from our awareness, it hasn't entered a mystical void; it has either degraded below our sensory threshold or hit an environmental barrier.",
+      philosophy:
+        "Resolving data loss. Vaisheshika notes that physical waves drop in power over distance due to friction and medium boundaries, illustrating a clean mechanical degradation profile.",
+      viewpoint: {
+        how_people_think:
+          "When a sound wave becomes too faint to hear, it has broken the laws of physics and vanished into magic nothingness.",
+        the_reality_is:
+          "Kanada demonstrates wave decay: the wave continues to degrade systematically until its amplitude drops below human sensory registration levels.",
+      },
+    },
+    {
+      id: "v-2-2-29",
+      verseNumber: "2.2.29",
+      ahnika: 2,
+      sanskrit: "तदुत्तरशब्दाच्च॥",
+      transliteration: "taduttaraśabdācca ||",
+      translation:
+        "And sound is transient because each downstream wave is canceled out by the next link in the propagation chain.",
+      commentary:
+        "Further details wave progression laws. The preceding wave transfers its kinetic energy to the next layer of coordinates and then immediately drops to a state of rest.",
+      philosophy:
+        "The structural conservation of kinetic chains. Momentum moves forward by restructuring adjacent coordinates; old links must dissipate for new ones to carry the acoustic load forward across space.",
+      viewpoint: {
+        how_people_think:
+          "A traveling sound wave is a massive, permanent column of air moving sideways across the map as a single frozen object.",
+        the_reality_is:
+          "Vaisheshika models it as a dynamic sequence: it is a successive chain of temporary vibrations where each coordinate point triggers the next and then falls back to equilibrium.",
+      },
+    },
+    {
+      id: "v-2-2-30",
+      verseNumber: "2.2.30",
+      ahnika: 2,
+      sanskrit: "संस्कारादपि॥",
+      transliteration: "saṁskārādapi ||",
+      translation:
+        "The propagation of sound is also driven by residual momentum (Samskara) carried through the medium.",
+      commentary:
+        "Kanada introduces impulse momentum (*Samskara*). The initial force leaves an imprint on the medium, allowing the acoustic ripple to continue travelling even after the primary source collision has fully stopped.",
+      philosophy:
+        "An early mechanical description of momentum preservation. A force leaves an active kinetic legacy inside the medium, enabling wave transmission to self-propagate across spatial distances.",
+      viewpoint: {
+        how_people_think:
+          "A sound wave can continue traveling only if the original drum or bell continues to be struck continuously along the entire path.",
+        the_reality_is:
+          "Kanada proves momentum latency: the primary strike leaves an energy footprint (*Samskara*) that moves autonomously through the spatial medium.",
+      },
+    },
+    {
+      id: "v-2-2-31",
+      verseNumber: "2.2.31",
+      ahnika: 2,
+      sanskrit: "शब्दात् शब्दप्रतिपत्तिः॥",
+      transliteration: "śabdāt śabdapratipattiḥ ||",
+      translation:
+        "One sound wave directly generates the next sound wave in sequential order.",
+      commentary:
+        "Cements his wave propagation model. Sound creates copies of itself across adjacent coordinates, moving outward like ripples from a central point of origin.",
+      philosophy:
+        "The physics of continuous propagation. Vaisheshika handles acoustics via sequential replication, avoiding the error of treating sound as a single material body flying across space.",
+      viewpoint: {
+        how_people_think:
+          "A sound wave jumps across large spatial gaps instantly without interacting with the space in between.",
+        the_reality_is:
+          "Kanada demonstrates local causality: sound moves via a continuous, uninterrupted chain of coordinate-to-coordinate energy transfers.",
+      },
+    },
+    {
+      id: "v-2-2-32",
+      verseNumber: "2.2.32",
+      ahnika: 2,
+      sanskrit: "तदलिङ्गं कर्मणः॥",
+      transliteration: "tadaliṅgaṁ karmaṇaḥ ||",
+      translation:
+        "This unique propagation signature confirms that sound operates purely as a property, not as a physical substance or kinetic action.",
+      commentary:
+        "Isolates the exact property nature of sound. It travels via consecutive replication rather than direct material relocation, separating acoustics from mechanical matter.",
+      philosophy:
+        "Maintaining strict category logic. A substance physically moves its entire body across coordinates; sound propagates its *state* without moving the background field, confirming it functions as a pure property of Space.",
+      viewpoint: {
+        how_people_think:
+          "Because sound travels from point A to point B, it must be an independent physical object or animal running through the air.",
+        the_reality_is:
+          "Kanada clarifies that sound is a property wave. The background field remains static; it is the qualitative state of vibration that is passing forward systematically.",
+      },
+    },
+    {
+      id: "v-2-2-33",
+      verseNumber: "2.2.33",
+      ahnika: 2,
+      sanskrit: "द्वयोस्तु प्रवृत्त्योरभावात्॥",
+      transliteration: "dvayostu pravṛttyorabhāvāt ||",
+      translation:
+        "Sound is not eternal, also because we observe that it requires distinct starting triggers and exhibits clear termination points.",
+      commentary:
+        "A secondary critique of eternalism. If sound were a permanent constant, it would lack a beginning or an end point. Observation completely disproves this.",
+      philosophy:
+        "The temporal limits of properties. True eternal properties do not experience initialization events. Because sound explicitly requires an initial collision to come alive, it cannot belong to the category of eternal constants.",
+      viewpoint: {
+        how_people_think:
+          "A sound can be completely uncreated and eternal while still requiring you to clap your hands to make it appear.",
+        the_reality_is:
+          "Kanada rejects the contradiction: if an event requires a mechanical trigger to become real, it is an effect, and all effects are non-eternal by definition.",
+      },
+    },
+    {
+      id: "v-2-2-34",
+      verseNumber: "2.2.34",
+      ahnika: 2,
+      sanskrit: "सतः संप्रत्ययाभावाच्च॥",
+      transliteration: "sataḥ saṁpratyayābhāvācca ||",
+      translation:
+        "And because there is absolutely no perception of sound before the physical collision occurs.",
+      commentary:
+        "If sound were eternally present in space but merely 'hidden', some minor empirical trace or signature would be detectable before the strike. Zero data supports this.",
+      philosophy:
+        "Rejecting unverified potential states. Vaisheshika locks its logic to empirical data trends. An object or property is only declared real when its specific signatures are measurable in the environment.",
+      viewpoint: {
+        how_people_think:
+          "Every word you will ever speak already exists as a tiny, fully formed ghost hiding in the air around you right now.",
+        the_reality_is:
+          "Kanada sweeps away the myth: the air is empty of those words. Sound is synthesized dynamically from scratch the exact moment kinetic energy collides with matter.",
+      },
+    },
+    {
+      id: "v-2-2-35",
+      verseNumber: "2.2.35",
+      ahnika: 2,
+      sanskrit: "सूक्तात् हि॥",
+      transliteration: "sūktāt hi ||",
+      translation:
+        "The traditional texts and statements themselves confirm this sequential creation of sound through language construction.",
+      commentary:
+        "Kanada uses linguistic structure as evidence. We assemble sentences by pronouncing syllables one after another in time, proving sound is structured sequentially rather than existing as a single frozen block.",
+      philosophy:
+        "Linguistics as a reflection of physical mechanics. The sequential nature of human speech mirrors the wave-propagation realities of physics; sounds are generated one unit at a time along a timeline.",
+      viewpoint: {
+        how_people_think:
+          "An entire long book or complex sentence exists as a single, concurrent flash of sound inside the environment.",
+        the_reality_is:
+          "Kanada highlights sequential production: speech requires chronological assembly, proving that acoustics operate in a continuous stream of finite events.",
+      },
+    },
+    {
+      id: "v-2-2-36",
+      verseNumber: "2.2.36",
+      ahnika: 2,
+      sanskrit: "न आकृतेः व्यञ्जकत्वात्॥",
+      transliteration: "na ākṛteḥ vyañjakatvāt ||",
+      translation:
+        "The form or structural pattern of an object does not make sound eternal; rather, the structure simply modifies the acoustic profile upon impact.",
+      commentary:
+        "An answer to an objection that argued the conceptual shape (*Akriti*) of a sound template makes it eternal. Kanada clarifies that the shape is just a geometric boundary modifying the resulting wave profile.",
+      philosophy:
+        "Separating geometry from duration. A bell's specific shape determines its unique pitch and acoustic resonance, but that geometric structure doesn't make the sound wave run forever once the kinetic strike stops.",
+      viewpoint: {
+        how_people_think:
+          "If a musical instrument has a beautiful, sacred shape, the sound it produces will vibrate out in nature eternally.",
+        the_reality_is:
+          "Vaisheshika keeps physics clean: the instrument's shape is just a physical boundary that shapes the initial wave vibration; the wave itself remains entirely bound by thermodynamic decay.",
+      },
+    },
+    {
+      id: "v-2-2-37",
+      verseNumber: "2.2.37",
+      ahnika: 2,
+      sanskrit: "तस्मादप्यपवादः॥",
+      transliteration: "tasmādapyapavādaḥ ||",
+      translation:
+        "Therefore, all counter-objections fall away, confirming that Sound is completely transient.",
+      commentary:
+        "Sage Kanada finishes Chapter 2 by conclusively resolving the acoustic debates, confirming that Sound is a temporary property generated within the eternal medium of Space.",
+      philosophy:
+        "The definitive conclusion of field properties. Space stands as an eternal cosmic canvas, but the acoustic properties hosted inside it are dynamic, finite events that obey the strict, unbroken laws of cause and effect.",
+      viewpoint: {
+        how_people_think:
+          "Ancient physics completely mixed up permanent space mediums with temporary wave phenomena.",
+        the_reality_is:
+          "Kanada wraps up his thesis with perfect analytical precision: the medium of Space is eternal, but the wave of Sound is transient, delivering a beautiful, highly accurate model of natural laws.",
+      },
+    },
+  ],
+};

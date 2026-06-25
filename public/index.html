@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vaiśeṣika Ultra-Dashboard</title>
+    <style>
+      :root {
+        --bg-deep: #05070f;
+        --neo-border: #000000;
+        --neo-shadow: #000000;
+
+        /* Glassmorphic variables */
+        --glass-bg: rgba(20, 30, 55, 0.4);
+        --glass-border: rgba(56, 189, 248, 0.2);
+
+        /* Theme accents */
+        --accent-cyan: #38bdf8;
+        --accent-green: #34d399;
+        --accent-rose: #f43f5e;
+        --text-main: #f8fafc;
+        --text-soft: #94a3b8;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        background-color: var(--bg-deep);
+        color: var(--text-main);
+        font-family:
+          ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+        padding: 2rem;
+        overflow-x: hidden;
+      }
+
+      /* --- BREADCRUMBS (Minimalist) --- */
+      .breadcrumbs {
+        font-size: 0.8rem;
+        color: var(--text-soft);
+        margin-bottom: 1.5rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+      }
+      .breadcrumbs span {
+        color: var(--accent-cyan);
+      }
+
+      /* --- APPLICATION HEADER (Neo-Brutalist Layout) --- */
+      header {
+        background: #ffffff;
+        color: #000000;
+        padding: 1.5rem;
+        border: 4px solid var(--neo-border);
+        box-shadow: 8px 8px 0px var(--neo-shadow);
+        margin-bottom: 3rem;
+      }
+      header h1 {
+        font-size: 2rem;
+        font-weight: 900;
+        text-transform: uppercase;
+      }
+      header p {
+        font-size: 1rem;
+        margin-top: 0.25rem;
+        font-weight: 600;
+      }
+
+      /* --- PRIMARY BENTO GRID SYSTEM (Asymmetric F-Pattern Layout) --- */
+      .bento-grid {
+        display: grid;
+        grid-template-columns: 1.2fr 1.8fr;
+        gap: 2rem;
+        max-width: 1500px;
+        margin: 0 auto;
+      }
+
+      @media (max-width: 1024px) {
+        .bento-grid {
+          grid-template-columns: 1fr;
+        }
+      }
+
+      /* Core Card Layout (Claymorphism + Glassmorphism Hybrid) */
+      .bento-cell {
+        background: var(--glass-bg);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 2px solid var(--glass-border);
+        border-radius: 16px;
+        padding: 1.75rem;
+        box-shadow:
+          inset 2px 2px 6px rgba(255, 255, 255, 0.05),
+          inset -2px -2px 6px rgba(0, 0, 0, 0.4);
+      }
+
+      .bento-cell h2 {
+        font-size: 1.25rem;
+        text-transform: uppercase;
+        margin-bottom: 1.25rem;
+        letter-spacing: -0.02em;
+        color: var(--accent-cyan);
+      }
+
+      /* --- CHIPS UTILITY --- */
+      .chip-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-bottom: 1rem;
+      }
+      .chip {
+        background: rgba(56, 189, 248, 0.1);
+        border: 1px solid var(--accent-cyan);
+        color: var(--accent-cyan);
+        padding: 0.25rem 0.6rem;
+        border-radius: 4px;
+        font-size: 0.75rem;
+        font-weight: bold;
+      }
+      .chip.success {
+        border-color: var(--accent-green);
+        color: var(--accent-green);
+        background: rgba(52, 211, 153, 0.1);
+      }
+
+      /* --- INTERACTIVE ACCORDION SELECTION --- */
+      .accordion-item {
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 8px;
+        margin-bottom: 0.5rem;
+        overflow: hidden;
+        background: rgba(0, 0, 0, 0.2);
+      }
+      .accordion-trigger {
+        padding: 1rem;
+        background: rgba(255, 255, 255, 0.02);
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        font-weight: bold;
+      }
+      .accordion-trigger:hover {
+        background: rgba(56, 189, 248, 0.05);
+        color: var(--accent-cyan);
+      }
+      .accordion-content {
+        padding: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition:
+          max-height 0.2s ease-out,
+          padding 0.2s ease-out;
+        font-size: 0.9rem;
+        color: var(--text-soft);
+        border-top: 0 solid transparent;
+      }
+
+      /* --- CAROUSEL DISPLAY (Neumorphic Slider) --- */
+      .carousel-container {
+        position: relative;
+        background: #090d16;
+        border-radius: 8px;
+        padding: 1.25rem;
+        border: 1px solid var(--border-subtle);
+        box-shadow:
+          inset 4px 4px 8px #04060a,
+          inset -4px -4px 8px #0e1422;
+        min-height: 180px;
+      }
+      .carousel-slide {
+        display: none;
+      }
+      .carousel-slide.active {
+        display: block;
+      }
+      .carousel-controls {
+        display: flex;
+        gap: 1rem;
+        margin-top: 1rem;
+      }
+      .btn-nav {
+        background: var(--glass-bg);
+        color: var(--text-main);
+        border: 1px solid var(--glass-border);
+        padding: 0.25rem 0.75rem;
+        cursor: pointer;
+        border-radius: 4px;
+      }
+      .btn-nav:hover {
+        border-color: var(--accent-cyan);
+        color: var(--accent-cyan);
+      }
+
+      /* --- SKELETAL LOADING COMPONENT --- */
+      .skeleton-box {
+        display: flex;
+        flex-direction: column;
+        gap: 0.6rem;
+      }
+      .skeleton-line {
+        background: linear-gradient(
+          90deg,
+          #131c2e 25%,
+          #1c2842 50%,
+          #131c2e 75%
+        );
+        background-size: 200% 100%;
+        animation: shimmer 1.5s infinite linear;
+        border-radius: 4px;
+        height: 14px;
+      }
+      @keyframes shimmer {
+        0% {
+          background-position: -200% 0;
+        }
+        100% {
+          background-position: 200% 0;
+        }
+      }
+
+      /* --- SCROLL-TRIGGERED TEXT REVEAL ANIMATION --- */
+      .scroll-reveal-section {
+        margin-top: 4rem;
+        padding: 3rem 1.5rem;
+        border-top: 1px dashed rgba(255, 255, 255, 0.1);
+        text-align: center;
+      }
+      .reveal-text {
+        font-size: 1.75rem;
+        color: rgba(255, 255, 255, 0.15);
+        background: linear-gradient(
+          to right,
+          var(--accent-rose) 0%,
+          var(--accent-rose) 0%,
+          rgba(255, 255, 255, 0.15) 0%
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+        transition: background-size 0.1s linear;
+        display: inline-block;
+      }
+
+      /* --- LIVE FEED CONTAINER --- */
+      .live-feed-box {
+        max-height: 480px;
+        overflow-y: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding-right: 0.5rem;
+      }
+      .live-feed-box::-webkit-scrollbar {
+        width: 4px;
+      }
+      .live-feed-box::-webkit-scrollbar-thumb {
+        background: var(--glass-border);
+        border-radius: 2px;
+      }
+
+      .feed-node {
+        background: rgba(0, 0, 0, 0.3);
+        border-left: 3px solid var(--accent-rose);
+        padding: 1rem;
+        border-radius: 0 8px 8px 0;
+      }
+
+      /* --- TOAST / SNACKBAR NOTIFICATIONS --- */
+      #snackbar {
+        visibility: hidden;
+        min-width: 280px;
+        background-color: #ffffff;
+        color: #000000;
+        text-align: center;
+        border: 3px solid #000000;
+        box-shadow: 4px 4px 0px #000000;
+        padding: 1rem;
+        position: fixed;
+        z-index: 100;
+        left: 2rem;
+        bottom: 2rem;
+        font-weight: bold;
+      }
+      #snackbar.show {
+        visibility: visible;
+        animation:
+          fadein 0.3s,
+          fadeout 0.3s 2.7s;
+      }
+      @keyframes fadein {
+        from {
+          bottom: 0;
+          opacity: 0;
+        }
+        to {
+          bottom: 2rem;
+          opacity: 1;
+        }
+      }
+      @keyframes fadeout {
+        from {
+          bottom: 2rem;
+          opacity: 1;
+        }
+        to {
+          bottom: 0;
+          opacity: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Breadcrumb Navigation Path -->
+    <div class="breadcrumbs">
+      Root // Cluster_01 // <span>Vaisheshika_Engine</span>
+    </div>
+
+    <!-- Neo-Brutalist Header Block -->
+    <header>
+      <h1>Vaiśeṣika Ontological Systems Console</h1>
+      <p>⚡ STACK: Claymorphism // Bento Grid // Neo-Brutalist Matrix</p>
+    </header>
+
+    <!-- Main Bento Grid Framework Layout -->
+    <main class="bento-grid">
+      <!-- LEFT PANEL CELL (Module Indexes & Metadata) -->
+      <section style="display: flex; flex-direction: column; gap: 2rem">
+        <!-- Cell 01: Founder Metadata Array -->
+        <div class="bento-cell" id="founder-cell">
+          <h2>System Founder</h2>
+          <div class="skeleton-box">
+            <div class="skeleton-line" style="width: 50%"></div>
+            <div class="skeleton-line" style="width: 90%; height: 40px"></div>
+          </div>
+        </div>
+
+        <!-- Cell 02: Accordion-Driven Chapter Map -->
+        <div class="bento-cell">
+          <h2>System Index Modules</h2>
+          <div class="chip-container">
+            <div class="chip">Radical Realism</div>
+            <div class="chip success">REST API Connected</div>
+          </div>
+          <div id="accordion-container">
+            <!-- Populated Dynamically via Client Script Fetch -->
+          </div>
+        </div>
+      </section>
+
+      <!-- RIGHT PANEL CELL (Live Stream and Translations) -->
+      <section style="display: flex; flex-direction: column; gap: 2rem">
+        <!-- Cell 03: Live Core Code Stream Array -->
+        <div class="bento-cell" id="live-viewer">
+          <h2>Real-Time Micro-Viewer</h2>
+          <p style="color: var(--text-soft); margin-bottom: 1.5rem">
+            Select an indexed module configuration card from the left panel
+            column matrix to query live cluster streams.
+          </p>
+          <button
+            style="
+              background: var(--accent-cyan);
+              color: #000;
+              border: none;
+              padding: 0.6rem 1.2rem;
+              font-weight: bold;
+              border-radius: 4px;
+              cursor: pointer;
+            "
+            onclick="queryModule(5)"
+          >
+            Query Module 05 Kinematics
+          </button>
+        </div>
+
+        <!-- Cell 04: Neumorphic Slide Matrix Mappings -->
+        <div class="bento-cell">
+          <h2>Ontology Architecture Conversions</h2>
+          <div class="carousel-container" id="matrix-carousel">
+            <div class="carousel-slide active">
+              <p style="color: var(--text-soft)">
+                Initialising slide components from modern mapping dictionary...
+              </p>
+            </div>
+          </div>
+          <div class="carousel-controls">
+            <button class="btn-nav" onclick="shiftCarousel(-1)">◀ PREV</button>
+            <button class="btn-nav" onclick="shiftCarousel(1)">NEXT ▶</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Scroll Triggered Text Matrix Container -->
+    <div class="scroll-reveal-section">
+      <div class="reveal-text" id="reveal-target">
+        संयोगभावे गुरुत्वात् पतनम्॥ CONVERSE REALISM ACTIVE
+      </div>
+    </div>
+
+    <!-- Global System Snackbars -->
+    <div id="snackbar">SYSTEM_PIPELINE: Connection Success</div>
+
+    <!-- System Interaction Control Script Execution Bundle -->
+    <script>
+      const TARGET_ENDPOINT = "http://localhost:3000/api";
+      let activeSlideIndex = 0;
+      let maximumSlides = 0;
+
+      // Trigger System Initialization
+      async function bootSystem() {
+        try {
+          // 1. Fetch and Mount Founder Payload Block
+          const fReq = await fetch(`${TARGET_ENDPOINT}/founder`);
+          const fData = await fReq.json();
+          document.getElementById("founder-cell").innerHTML = `
+          <h2>System Founder</h2>
+          <div style="font-weight:bold; font-size:1.1rem; color:var(--accent-rose);">${fData.name}</div>
+          <p style="font-size:0.85rem; color:var(--text-soft); margin: 0.5rem 0 1rem 0;">${fData.summary}</p>
+          <div class="chip">${fData.aliases[0]}</div>
+        `;
+
+          // 2. Fetch and Mount Custom Interactive Accordions
+          const cReq = await fetch(`${TARGET_ENDPOINT}/chapters`);
+          const cData = await cReq.json();
+          const accContainer = document.getElementById("accordion-container");
+          accContainer.innerHTML = cData
+            .map(
+              (ch) => `
+          <div class="accordion-item">
+            <div class="accordion-trigger" onclick="toggleAccordion(this, ${ch.chapterNumber})">
+              <span>M0${ch.chapterNumber} // ${ch.title.split(" (")[0]}</span>
+              <span>+</span>
+            </div>
+            <div class="accordion-content">
+              <p style="padding: 1rem;">${ch.description}<br><br>
+              <button style="background:var(--accent-cyan); color:#000; border:none; padding:0.3rem 0.6rem; font-size:0.75rem; font-weight:bold; cursor:pointer; border-radius:3px;" onclick="queryModule(${ch.chapterNumber})">MOUNT ARRAY</button></p>
+            </div>
+          </div>
+        `,
+            )
+            .join("");
+
+          // 3. Fetch and Mount Neumorphic Matrix Slideshow Arrays
+          const mReq = await fetch(`${TARGET_ENDPOINT}/modern-matrix`);
+          const mData = await mReq.json();
+          const carousel = document.getElementById("matrix-carousel");
+          maximumSlides = mData.mappings.length;
+          carousel.innerHTML = mData.mappings
+            .map(
+              (m, idx) => `
+          <div class="carousel-slide ${idx === 0 ? "active" : ""}">
+            <div style="display:flex; justify-content:space-between; font-weight:bold; margin-bottom:0.5rem;">
+              <span style="color:var(--accent-green)">${m.category} [${m.sanskritTerm}]</span>
+              <span style="color:var(--text-soft)">${idx + 1}/${maximumSlides}</span>
+            </div>
+            <p style="font-size:0.85rem; margin-bottom:0.75rem;">${m.definition}</p>
+            <div style="font-size:0.8rem; color:var(--accent-cyan); background:rgba(0,0,0,0.4); padding:0.5rem; border-radius:4px;">
+              <strong>OOP Parallel:</strong> ${m.objectOrientedProgramming.concept}
+            </div>
+          </div>
+        `,
+            )
+            .join("");
+
+          triggerToast("VAIŚEṢIKA_API: Pipeline Synchronized");
+        } catch (e) {
+          console.error(
+            "Critical System Data Hydration Dropdown Exception:",
+            e,
+          );
+        }
+      }
+
+      // Interactive Accordion Actions Handler
+      function toggleAccordion(element, chId) {
+        const content = element.nextElementSibling;
+        const allContents = document.querySelectorAll(".accordion-content");
+
+        allContents.forEach((c) => {
+          if (c !== content) {
+            c.style.maxHeight = null;
+            c.style.padding = null;
+            c.previousElementSibling.querySelector(
+              "span:last-child",
+            ).innerText = "+";
+          }
+        });
+
+        if (content.style.maxHeight) {
+          content.style.maxHeight = null;
+          element.querySelector("span:last-child").innerText = "+";
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+          element.querySelector("span:last-child").innerText = "-";
+        }
+      }
+
+      // Shift Neumorphic Carousel Slides Matrix Tracker Indexes
+      function shiftCarousel(direction) {
+        const slides = document.querySelectorAll(".carousel-slide");
+        slides[activeSlideIndex].classList.remove("active");
+
+        activeSlideIndex =
+          (activeSlideIndex + direction + maximumSlides) % maximumSlides;
+        slides[activeSlideIndex].classList.add("active");
+      }
+
+      // Query Specific Module Payload Over Active Network Interface Express Router
+      async function queryModule(id) {
+        const viewer = document.getElementById("live-viewer");
+        viewer.innerHTML = `<h2>Executing Bus Query M0${id}...</h2><div class="skeleton-box"><div class="skeleton-line" style="height:100px;"></div></div>`;
+
+        try {
+          const res = await fetch(`${TARGET_ENDPOINT}/chapters/${id}`);
+          const data = await res.json();
+
+          viewer.innerHTML = `
+          <h2>Module M0${data.chapterNumber}: Full Verse Array</h2>
+          <div class="live-feed-box">
+            ${data.verses
+              .map(
+                (v) => `
+              <div class="feed-node">
+                <div style="font-size:0.75rem; color:var(--accent-cyan); font-weight:bold; margin-bottom:0.25rem;">SŪTRA ${v.verseNumber}</div>
+                <div style="color:var(--accent-rose); font-size:1.1rem; font-weight:bold; margin-bottom:0.25rem;">${v.sanskrit}</div>
+                <p style="font-size:0.85rem; color:var(--text-main); line-height:1.4;">${v.translation}</p>
+              </div>
+            `,
+              )
+              .join("")}
+          </div>
+        `;
+          triggerToast(
+            `STREAM_SUCCESS: Imported ${data.verses.length} records`,
+          );
+        } catch (err) {
+          viewer.innerHTML = `<h2>Transport stream collection error.</h2>`;
+        }
+      }
+
+      // Trigger Toast Snackbar
+      function triggerToast(msg) {
+        const toast = document.getElementById("snackbar");
+        toast.innerText = msg;
+        toast.className = "show";
+        setTimeout(() => {
+          toast.className = toast.className.replace("show", "");
+        }, 3000);
+      }
+
+      // Scrolling-Triggered Animation Control Logic
+      window.addEventListener("scroll", () => {
+        const target = document.getElementById("reveal-target");
+        const rect = target.getBoundingClientRect();
+        const windowHeight = window.innerHeight;
+
+        if (rect.top < windowHeight && rect.bottom > 0) {
+          const fraction = Math.min(
+            Math.max((windowHeight - rect.top) / (windowHeight / 1.5), 0),
+            1,
+          );
+          target.style.backgroundSize = `${fraction * 100}% 100%`;
+        }
+      });
+
+      window.addEventListener("DOMContentLoaded", bootSystem);
+    </script>
+  </body>
+</html>

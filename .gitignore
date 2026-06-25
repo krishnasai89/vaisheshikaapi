@@ -1,0 +1,51 @@
+# === Core Node.js / Dependency Management ===
+node_modules/
+.pnpm-store/
+jspm_packages/
+web_modules/
+
+# === Production Build & Distribution Outputs ===
+dist/
+build/
+out/
+public/dist/
+.next/
+.nuxt/
+
+# === Runtime Cache, Logs, and Crash Dumps ===
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm
+.eslintcache
+.stylelintcache
+.turbo/
+
+# === System & Environment Variables Security ===
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env.json
+
+# === Operating System Noise (Windows/macOS) ===
+.DS_Store
+.DS_Store?
+._*
+Thumsc.db
+ehthumbs.db
+Desktop.ini
+
+# === Local Dev Editor Overrides ===
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp

@@ -1,0 +1,1012 @@
+import { Chapter } from "../data";
+
+export const ch1: Chapter = {
+  id: "ch-1",
+  chapterNumber: 1,
+  title: "The Padarthas (Categories of Existence)",
+  description:
+    "Introduction to the categories of reality: Substance, Quality, and Action.",
+  verses: [
+    {
+      id: "v-1-1-1",
+      verseNumber: "1.1.1",
+      ahnika: 1,
+      sanskrit: "अथातो धर्मं व्याख्यास्यामः॥",
+      transliteration: "athāto dharmaṁ vyākhyāsyāmaḥ ||",
+      translation: "Now, therefore, we shall explain Dharma.",
+      commentary:
+        "Kanada opens the text by declaring the ultimate purpose: understanding the cosmic, moral, and physical order of the universe.",
+      philosophy:
+        "Vaisheshika frames philosophy as an investigative quest to understand the systemic laws of reality rather than blind belief or dogmatic theology.",
+      viewpoint: {
+        how_people_think:
+          "Dharma means religious rituals, caste obligations, or worshiping specific deities.",
+        the_reality_is:
+          "In Vaisheshika, Dharma is an objective, universal law of ethics and nature that sustains cosmic harmony and human progress.",
+      },
+    },
+    {
+      id: "v-1-1-2",
+      verseNumber: "1.1.2",
+      ahnika: 1,
+      sanskrit: "यतोऽभ्युदयनिःश्रेयससिद्धिः स धर्मः॥",
+      transliteration: "yato'bhyudayaniḥśreyasasiddhiḥ sa dharmaḥ ||",
+      translation:
+        "Dharma is that from which results the achievement of exhaltation (worldly prosperity) and supreme bliss (liberation).",
+      commentary:
+        "This defines Dharma functionally through its dual empirical and spiritual outcomes.",
+      philosophy:
+        "The system balances materialism (Abhyudaya) and spiritual liberation (Nihshreyasa). It asserts that physical well-being is not the enemy of spirituality, but a necessary foundation for it.",
+      viewpoint: {
+        how_people_think:
+          "Ancient Indian philosophies ignore practical life and material science to focus purely on escaping the world.",
+        the_reality_is:
+          "Kanada explicitly declares that worldly prosperity and progress are integral parts of the cosmic order alongside inner liberation.",
+      },
+    },
+    {
+      id: "v-1-1-3",
+      verseNumber: "1.1.3",
+      ahnika: 1, // 👈 Added missing property here
+      sanskrit: "तद्वचनादाम्नायस्य प्रामाण्यम्॥",
+      transliteration: "tadvacanādāmnāyasya prāmāṇyam ||",
+      translation:
+        "The authoritativeness of the Veda follows from its being the utterance of That / spoken by Him.",
+      commentary:
+        "Establishes why traditional sacred texts carry philosophical validity, attributing it to their alignment with absolute truth.",
+      philosophy:
+        "Vaisheshika approaches sacred authority through Sabda Pramana (verbal testimony), arguing that texts are valid only because they are authored by completely trustworthy, enlightened minds (Aptas) who speak absolute truth.",
+      viewpoint: {
+        how_people_think:
+          "Scriptures are infallible because they are magical, divine, or supernatural.",
+        the_reality_is:
+          "Vaisheshika views scripture as authoritative because it is a reliable record of natural laws compiled by flawless observers of reality.",
+      },
+    },
+    {
+      id: "v-1-1-4",
+      verseNumber: "1.1.4",
+      ahnika: 1,
+      sanskrit:
+        "धर्मविशेषप्रसूताद् द्रव्यगुणकर्मसामान्यविशेषसमवायानां पदार्थानां साधर्म्यवैधर्म्याभ्यां तत्त्वज्ञानान्निश्रेयसम्॥",
+      transliteration:
+        "dharmaviśeṣaprasūtād dravyaguṇakarmasāmānyaviśeṣasamavāyānāṁ padārthānāṁ sādharmyavaidharmyābhyāṁ tattvajñānānniśreyasam ||",
+      translation:
+        "Supreme bliss results from the knowledge of the truth of the categories (Substance, Quality, Action, Generality, Individuality, and Inherence).",
+      commentary:
+        "The foundational core of Vaisheshika philosophy, introducing the main Padarthas.",
+      philosophy:
+        "Liberation is achieved not through rituals or divine grace, but through rigorous analytical knowledge (Tattva-jnana) of the natural world and how its distinct structural elements interact.",
+      viewpoint: {
+        how_people_think:
+          "Spiritual freedom requires closing your eyes and meditating to ignore the material universe completely.",
+        the_reality_is:
+          "Kanada states that understanding the exact scientific composition of physical reality (similarities and differences between elements) is the direct path to mental liberation.",
+      },
+    },
+    {
+      id: "v-1-1-5",
+      verseNumber: "1.1.5",
+      ahnika: 1,
+      sanskrit: "पृथिव्यापस्तेजो वायुराकाशं कालो दिगात्मा मन इति द्रव्याणि॥",
+      transliteration:
+        "pṛthivyāpastejo vāyurākāśaṁ kālo digātmā mana iti dravyāṇi ||",
+      translation:
+        "Earth, Water, Fire, Air, Ether (Space), Time, Space (Direction), Soul, and Mind—these are the only Substances.",
+      commentary:
+        "This verse lists the nine fundamental Dravyas (substances) that comprise all physical and metaphysical reality.",
+      philosophy:
+        "Vaisheshika maps reality pluralistically. Space, Time, the Soul, and Mind are not abstract illusions, but fundamental, real existential objective substances just like physical matter.",
+      viewpoint: {
+        how_people_think:
+          "The physical elements are mystic concepts, and the soul is an untestable cloud.",
+        the_reality_is:
+          "Kanada categories elements based on physical properties, treating 'Mind' and 'Soul' as actual structural elements that host psychological traits, operating under predictable rules.",
+      },
+    },
+    {
+      id: "v-1-1-6",
+      verseNumber: "1.1.6",
+      ahnika: 1,
+      sanskrit:
+        "रूपरसगन्धस्पर्शवन्तः संख्याः परिमाणानि पृथक्त्वं संयोगविभागौ परत्वापरत्वे बुद्धयः सुखदुःखे इच्छाद्वेषौ प्रयत्नाश्च गुणाः॥",
+      transliteration:
+        "rūparasagandhasparśavantaḥ saṅkhyāḥ parimāṇāni pṛthaktvaṁ saṁyogavibhāgau paratvāparatve buddhayaḥ sukhaduḥkhe icchādveṣau prayatnāśca guṇāḥ ||",
+      translation:
+        "Color, taste, smell, touch, numbers, measures, separateness, conjunction and disjunction, priority and posteriority, understandings, pleasure and pain, desire and aversion, and volitions are the Qualities.",
+      commentary:
+        "This verse enumerates the fundamental Gunas (qualities or descriptive attributes) that belong to substances.",
+      philosophy:
+        "Qualities (Gunas) cannot exist on their own; they are static values that require a physical body or substance to manifest.",
+      viewpoint: {
+        how_people_think:
+          "Attributes like color, math, or human emotion are separate individual entities floating freely in existence.",
+        the_reality_is:
+          "Vaisheshika asserts that qualities are purely dependent variables bound to physical or metaphysical substrates; you can have a red pot, but you cannot have 'redness' floating in a room alone.",
+      },
+    },
+    {
+      id: "v-1-1-7",
+      verseNumber: "1.1.7",
+      ahnika: 1,
+      sanskrit: "उत्क्षेपणमवक्षेपणमाकुञ्चनं प्रसारणं गमनमिति कर्माणि॥",
+      transliteration:
+        "utkṣepaṇamavakṣepaṇamākuñcanaṁ prasāraṇaṁ gamanamiti karmāṇi ||",
+      translation:
+        "Throwing upwards, throwing downwards, contraction, expansion, and locomotion (motion in general)—these are Actions.",
+      commentary:
+        "This defines the five specific classifications of physical motion recognized in the system.",
+      philosophy:
+        "Karma in this context does not mean fate or past life sins; it strictly translates to mechanical kinetic energy and motion inside physical elements.",
+      viewpoint: {
+        how_people_think:
+          "Karma always refers to a mystical moral score balance that tracks your good and bad deeds.",
+        the_reality_is:
+          "In Vaisheshika physical science, Karma is purely physics. It is vector translation, mechanical stress, velocity, and spatial kinetics.",
+      },
+    },
+    {
+      id: "v-1-1-8",
+      verseNumber: "1.1.8",
+      ahnika: 1,
+      sanskrit:
+        "सदनित्यं द्रव्यवत्कार्यं कारणं सामान्यविशेषवदिति द्रव्यगुणकर्मणामविशेषः॥",
+      transliteration:
+        "sadanityaṁ dravyavatkāryaṁ kāraṇaṁ sāmānyaviśeṣavaditi dravyaguṇakarmaṇāmaviśeṣaḥ ||",
+      translation:
+        "The common characteristic of Substance, Quality, and Action is that they are existent, temporary, possess substance, are effects, are causes, and possess generality and particularity.",
+      commentary:
+        "Kanada maps out the shared ontological properties between the first three physical categories.",
+      philosophy:
+        "This establishes that matter, traits, and energy all share objective reality—they exist within time-based chains of cause, effect, and classification.",
+      viewpoint: {
+        how_people_think:
+          "Traits or movements are less 'real' or existential than physical material objects.",
+        the_reality_is:
+          "Vaisheshika places traits and physical actions on the exact same ontological playing field as matter itself. They all exist tangibly and affect environmental outcomes.",
+      },
+    },
+    {
+      id: "v-1-1-9",
+      verseNumber: "1.1.9",
+      ahnika: 1,
+      sanskrit: "द्रव्यगुणयोः सजातीयारम्भकत्वं साधर्म्यम्॥",
+      transliteration: "dravyaguṇayoḥ sajātīyārambhakatvaṁ sādharmyam ||",
+      translation:
+        "The resemblance between Substance and Quality is that they are both originators of their own congeners (things of the same class).",
+      commentary:
+        "Kanada points out that both substances and qualities have the intrinsic capacity to produce new instances of their own kind down a causal chain.",
+      philosophy:
+        "This establishes a law of structural continuity: a physical material gives birth to new material arrangements, and structural values give birth to corresponding values in the effect.",
+      viewpoint: {
+        how_people_think:
+          "An effect or creation can randomly emerge with traits completely unrelated to its raw materials.",
+        the_reality_is:
+          "Vaisheshika asserts strict scientific determination: the properties and elements of the cause directly dictate and propagate into the class and attributes of the resulting effect.",
+      },
+    },
+    {
+      id: "v-1-1-10",
+      verseNumber: "1.1.10",
+      ahnika: 1,
+      sanskrit: "द्रव्याणि द्रव्यान्तरमारभन्ते गुणाश्च गुणान्तरम्॥",
+      transliteration: "dravyāṇi dravyāntaramārabhante guṇāśca guṇāntaram ||",
+      translation:
+        "Substances originate other substances, and qualities originate other qualities.",
+      commentary:
+        "This provides concrete physics examples for the previous rule. For example, individual threads (substances) combine to form a cloth (substance), and the white color of those threads (quality) directly produces the white color of the cloth (quality).",
+      philosophy:
+        "An early explanation of molecular compounding and physical attribute inheritance. Material structures scale up structurally, carrying their properties with them.",
+      viewpoint: {
+        how_people_think:
+          "Physical objects and their colors or weights emerge completely independently during manufacturing.",
+        the_reality_is:
+          "Kanada proves that macro-properties are directly inherited from micro-properties; the macro-object cannot possess a basic physical trait that its component parts did not supply.",
+      },
+    },
+    {
+      id: "v-1-1-11",
+      verseNumber: "1.1.11",
+      ahnika: 1,
+      sanskrit: "न तु कर्म कर्मसाध्यं विद्यते॥",
+      transliteration: "na tu karma karmasādhyaṁ vidyate ||",
+      translation:
+        "But an Action is never produced or originated by another Action.",
+      commentary:
+        "Unlike substances and qualities, physical motion cannot directly breed another abstract motion as an inherited property.",
+      philosophy:
+        "A critical mechanical distinction. A kinetic movement can transfer momentum or structurally alter a substance to trigger a secondary action, but 'motion' itself does not have offspring properties.",
+      viewpoint: {
+        how_people_think:
+          "Energy and physical movement reproduce and spawn secondary movements the exact same way matter does.",
+        the_reality_is:
+          "Vaisheshika marks a strict boundary: motion is a transient event. It transfers force or breaks junctions, but it does not multiply into copies of itself the way material compounding works.",
+      },
+    },
+    {
+      id: "v-1-1-12",
+      verseNumber: "1.1.12",
+      ahnika: 1,
+      sanskrit: "न द्रव्यं कार्यं कारणं च नश्यति॥",
+      transliteration: "na dravyaṁ kāryaṁ kāraṇaṁ ca naśyati ||",
+      translation:
+        "A substance is not destroyed either by its own effect or by its own cause.",
+      commentary:
+        "An ontological rule stating that a fundamental material substance is chemically/structurally independent and is not automatically destroyed simply by participating in a chain of cause and effect.",
+      philosophy:
+        "An ancient precursor to the law of conservation of matter. While shapes and combinations shift, the underlying elemental substance remains conserved throughout structural changes.",
+      viewpoint: {
+        how_people_think:
+          "When an object changes shape or breaks down into an effect, its fundamental elemental matter is completely destroyed and vanishes from existence.",
+        the_reality_is:
+          "Kanada showcases that basic substances survive their structural transitions. The form changes (cloth becomes rags), but the baseline matter remains unannihilated.",
+      },
+    },
+    {
+      id: "v-1-1-13",
+      verseNumber: "1.1.13",
+      ahnika: 1,
+      sanskrit: "कार्यविरोधि कर्म॥",
+      transliteration: "kāryavirodhi karma ||",
+      translation: "Action is opposed and destroyed by its own effect.",
+      commentary:
+        "A brilliant observation on mechanical dynamics: once an action or motion achieves its final structural result (like a moving hand arriving at rest against a table), that resulting new conjunction destroys the original momentum.",
+      philosophy:
+        "Motion is self-terminating by nature. The very purpose of kinetic action is to alter spatial relationships, and once that new state (conjunction) is achieved, the motion naturally ceases.",
+      viewpoint: {
+        how_people_think:
+          "Physical motion requires a mystical continuous drain of spiritual energy to slow down or stop.",
+        the_reality_is:
+          "Vaisheshika explains it purely via mechanical physics: motion terminates because it successfully produces a new spatial alignment that actively counteracts and ends the kinetic state.",
+      },
+    },
+    {
+      id: "v-1-1-14",
+      verseNumber: "1.1.14",
+      ahnika: 1,
+      sanskrit: "गुणः कार्यविरोध्यपरश्च॥",
+      transliteration: "guṇaḥ kāryavirodhyaparaśca ||",
+      translation:
+        "Quality is destroyed by its own effect, and sometimes by its opposite.",
+      commentary:
+        "Explains how attributes change over time. For instance, when a raw clay pot is fired, the original black color is destroyed by the emergence of the new red color (its effect/successor), or cold is counteracted by incoming heat.",
+      philosophy:
+        "A dynamic rule of qualitative transitions. Unlike matter, which is structurally conserved, individual qualities are volatile states that get rewritten when an opposing physical value or chemical change takes place.",
+      viewpoint: {
+        how_people_think:
+          "An object's properties can hold multiple contradictory values (like being completely black and completely red) at the exact same point in time.",
+        the_reality_is:
+          "Vaisheshika notes that nature works via clean state overrides. When a new quality manifests as an effect of chemical interaction or thermodynamic shifts, it completely displaces and annihilates the preceding quality.",
+      },
+    },
+    {
+      id: "v-1-1-15",
+      verseNumber: "1.1.15",
+      ahnika: 1,
+      sanskrit: "क्रियागुणवत्समवायिकारणमिति द्रव्यलक्षणम्॥",
+      transliteration: "kriyāguṇavatsamavāyikāraṇamiti dravyalakṣaṇam ||",
+      translation:
+        "The definition of Substance is that it possesses actions and qualities, and is an inherent / material cause.",
+      commentary:
+        "The ultimate baseline definition of matter (Dravya) in the Vaisheshika system: Only a substance can serve as the physical container where traits and motions dwell.",
+      philosophy:
+        "Establishes substance as the sole ontologically independent platform. Traits (colors, weight) and kinetic states cannot drift in a vacuum; they require an physical substrate to host them.",
+      viewpoint: {
+        how_people_think:
+          "Abstract concepts like 'velocity' or 'blue' can float freely across space on their own without belonging to a physical body.",
+        the_reality_is:
+          "Kanada proves that property requires a platform. You can measure velocity only because an actual material body is moving. Substance is the indispensable root cause of all visible properties.",
+      },
+    },
+    {
+      id: "v-1-1-16",
+      verseNumber: "1.1.16",
+      ahnika: 1,
+      sanskrit:
+        "द्रव्याश्रय्यगुणवान् संयोगविभागेष्वकारणमनपेक्ष इति गुणलक्षणम्॥",
+      transliteration:
+        "dravyāśrayyaguṇavān saṁyogavibhāgeṣvakāraṇamanapekṣa iti guṇalakṣaṇam ||",
+      translation:
+        "The definition of Quality is that it abides in a substance, does not itself possess another quality, and is not an independent cause of conjunction or disjunction.",
+      commentary:
+        "Defines Guna. Qualities are completely non-kinetic, static attributes that can never have other qualities layered on top of them.",
+      philosophy:
+        "Properties do not have properties. A blue ball has a size and color, but the 'blue color' itself does not have a weight or an emotional state. Furthermore, a quality alone cannot combine or separate objects without physical motion.",
+      viewpoint: {
+        how_people_think:
+          "An attribute can be treated as an agent that actively grabs, moves, or separates elements on its own.",
+        the_reality_is:
+          "Vaisheshika categorizes a quality as entirely passive. A color or temperature cannot mechanically join or sever atomic links; only kinetic motion can act as the physical driver of change.",
+      },
+    },
+    {
+      id: "v-1-1-17",
+      verseNumber: "1.1.17",
+      ahnika: 1,
+      sanskrit: "एकद्रव्यमगुणं संयोगविभागेष्वनपेक्षकारणं इति कर्मलक्षणम्॥",
+      transliteration:
+        "ekadravyaguṇe saṁyogavibhāgeṣvanapekṣakāraṇaṁ iti karmalक्षणम् ||",
+      translation:
+        "The definition of Action is that it abides in a single substance, is devoid of qualities, and is the immediate, independent cause of conjunctions and disjunctions.",
+      commentary:
+        "Defines Karma. Physical motion belongs to one boundary at a time and is the direct agent of structural changes.",
+      philosophy:
+        "Motion is an instantaneous event that alters spatial metrics. It is the immediate mechanism that breaks a bond with location A (disjunction) and creates a bond with location B (conjunction).",
+      viewpoint: {
+        how_people_think:
+          "A single wave of movement can be shared simultaneously as an inherent property by multiple independent objects.",
+        the_reality_is:
+          "Kanada limits motion locally. While multiple objects can have separate parallel movements, a single, discrete kinetic vector belongs exclusively to the boundaries of one particular substance at a time.",
+      },
+    },
+    {
+      id: "v-1-1-18",
+      verseNumber: "1.1.18",
+      ahnika: 1,
+      sanskrit: "द्रव्यगुणकर्मणां द्रव्यं कारणं सामान्यम्॥",
+      transliteration: "dravyaguṇakarmaṇāṁ dravyaṁ kāraṇaṁ sāmānyam ||",
+      translation:
+        "Substance is the common cause of substances, qualities, and actions.",
+      commentary:
+        "A fundamental substance acts as the universal physical baseline required for any new object, attribute, or movement to exist.",
+      philosophy:
+        "This highlights the ontological priority of matter. Before you can have structural variations (qualities) or mechanical behaviors (actions), there must be a foundational substrate (substance) providing a localized coordinate grid.",
+      viewpoint: {
+        how_people_think:
+          "Qualities like weight or kinetic motion are independent entities that can float around in space without a physical body.",
+        the_reality_is:
+          "In Vaisheshika, everything requires a material anchor. Substance is the non-negotiable common denominator for all physical reality.",
+      },
+    },
+    {
+      id: "v-1-1-19",
+      verseNumber: "1.1.19",
+      ahnika: 1,
+      sanskrit: "तथा गुणः॥",
+      transliteration: "tathā guṇaḥ ||",
+      translation:
+        "Similarly, Quality is a common cause of substances, qualities, and actions.",
+      commentary:
+        "Just like substance, an existing quality or energy profile acts as an essential condition or non-inherent cause in producing new physical outcomes.",
+      philosophy:
+        "Matter alone is inert without properties. The qualities of the component parts (like the color or thermal energy of component atoms) are required to manifest the resulting characteristics and behaviors of the compound object.",
+      viewpoint: {
+        how_people_think:
+          "When items merge, their underlying micro-qualities play no real part in defining what the new macro-object will look like or do.",
+        the_reality_is:
+          "Kanada shows that the structural properties of raw components directly govern the final form, downstream attributes, and functional capacities of the creation.",
+      },
+    },
+    {
+      id: "v-1-1-20",
+      verseNumber: "1.1.20",
+      ahnika: 1,
+      sanskrit: "कर्म कर्मणः॥",
+      transliteration: "karma karmaṇaḥ ||",
+      translation:
+        "Action is the cause of effects, but never the cause of another action.",
+      commentary:
+        "A restatement of mechanical laws: physical motion can trigger a sequence of positional changes, but it cannot directly construct an abstract motion as an inherited byproduct.",
+      philosophy:
+        "Kinetic energy acts exclusively as a transitional vector. It modifies contacts and positions (conjunction/disjunction) but does not breed permanent property branches like matter or attributes do.",
+      viewpoint: {
+        how_people_think:
+          "One movement creates a second movement out of thin air, passing down a legacy of motion just like biological reproduction.",
+        the_reality_is:
+          "Vaisheshika tracks forces clearly: motion does not reproduce itself. It transfers impact to an object, causing a structural change or collision that then releases a new, independent kinetic event.",
+      },
+    },
+    {
+      id: "v-1-1-21",
+      verseNumber: "1.1.21",
+      ahnika: 1,
+      sanskrit: "नैकं द्रव्यं कार्यं द्वयोर्द्वित्वाद्वा॥",
+      transliteration: "naikaṁ dravyaṁ kāryaṁ dvayordvitvādvā ||",
+      translation:
+        "A single substance cannot be the material cause of a new substance, nor can two substances unless they combine.",
+      commentary:
+        "An insight into particle compounding: a completely new compound object cannot sprout out of a single isolated, undivided component atom, nor out of separate unlinked elements.",
+      philosophy:
+        "Creation requires structural interaction and compounding. A singular element remaining in total isolation remains unchanged; it is the pairing or cluster configuration of atoms that gives birth to a distinct macroscopic body.",
+      viewpoint: {
+        how_people_think:
+          "A new macroscopic material can pop into existence from a single, static point without any mechanical binding or structural mixing.",
+        the_reality_is:
+          "Kanada rules out spontaneous isolated creation. Every compound body requires a multiplicity of components to merge, structurally defining a brand-new dimensional boundary.",
+      },
+    },
+    {
+      id: "v-1-1-22",
+      verseNumber: "1.1.22",
+      ahnika: 1,
+      sanskrit: "एकमनेकं च कार्यं कर्म न विद्यते॥",
+      transliteration: "ekamanekaṁ ca kāryaṁ karma na vidyate ||",
+      translation:
+        "An action is never an effect produced by multiple combined actions, nor can a single action belong to multiple independent objects simultaneously.",
+      commentary:
+        "A precise rule of kinetic boundaries: a unified physical motion cannot be a compound mixture synthesized from separate independent forces, nor can one identical moving event be split between two separate bodies.",
+      philosophy:
+        "Motion is an indivisible, localized expression of a single mass vector. You can have parallel movements or compound velocity resulting from multiple external forces, but the active kinetic state remains localized to the unique structural envelope of that specific object.",
+      viewpoint: {
+        how_people_think:
+          "Two completely disconnected running vehicles can share the literal exact same instance of a moving event like a shared cloud.",
+        the_reality_is:
+          "Vaisheshika anchors kinetic properties strictly: each moving body possesses its own discrete, separate mechanical action bounded entirely by its own physical surface area.",
+      },
+    },
+    {
+      id: "v-1-1-23",
+      verseNumber: "1.1.23",
+      ahnika: 1,
+      sanskrit: "संयोगविभागाश्च कर्मणाम्॥",
+      transliteration: "saṁyogavibhāgāśca karmaṇām ||",
+      translation:
+        "Conjunctions and disjunctions are the direct effects of actions.",
+      commentary:
+        "Mechanical motion or kinetic energy has exactly two baseline structural results: it severs existing spatial contacts (disjunction) and establishes new spatial contacts (conjunction).",
+      philosophy:
+        "Motion is the active agent of geometry. In the Vaisheshika system, change is not an abstract transformation; it is the physical relocation of components driven purely by kinetic force.",
+      viewpoint: {
+        how_people_think:
+          "Objects join or separate due to a mystical pull or abstract chemical magic without actual physical movement.",
+        the_reality_is:
+          "Kanada strips away the magic, proving that all structural modifications, bonding, and breaking at the macro or micro level are the direct mechanical consequences of physical motion.",
+      },
+    },
+    {
+      id: "v-1-1-24",
+      verseNumber: "1.1.24",
+      ahnika: 1,
+      sanskrit: "कारणसामान्यात् द्रव्यकर्मणां कर्माणि॥",
+      transliteration: "kāraṇasāmānyāt dravyakarmaṇāṁ karmāṇi ||",
+      translation:
+        "By reason of a common cause, actions appear to belong simultaneously to substances and to other actions.",
+      commentary:
+        "When an external impact moves an object, it sets off a chain reaction where both the parts of the object and its structural traits appear to move as a singular, concurrent event.",
+      philosophy:
+        "Deconstructs compound motion. Kanada clarifies that when a multi-part system shifts, we perceive a singular unified motion because all underlying sub-components are reacting to the exact same shared causal force.",
+      viewpoint: {
+        how_people_think:
+          "A complex machine or compound object possesses one massive, singular soul-like motion that operates independently of its parts.",
+        the_reality_is:
+          "Vaisheshika analyzes systems accurately: the macro-motion is actually an aggregate of individual micro-motions occurring simultaneously due to a shared uniform input of force.",
+      },
+    },
+    {
+      id: "v-1-1-25",
+      verseNumber: "1.1.25",
+      ahnika: 1,
+      sanskrit: "द्रव्याणां द्रव्यं कार्यं सामान्यम्॥",
+      transliteration: "dravyāṇāṁ dravyaṁ kāryaṁ sāmānyam ||",
+      translation:
+        "A substance is the common effect of multiple combined substances.",
+      commentary:
+        "A compound physical object (like a building or a piece of cloth) is the macro-level manifestation produced when smaller component substances (like bricks or threads) combine.",
+      philosophy:
+        "The foundational logic of emergence and compounding. An object cannot exist without its component materials; hence, the macro-structure is the explicit unified effect of its micro-elements.",
+      viewpoint: {
+        how_people_think:
+          "An assembled object is a magical new creation that shares absolutely no material or ontological ties with the raw matter it was built from.",
+        the_reality_is:
+          "Kanada shows that every complex physical structure is entirely dependent on its underlying elements. Matter is rearranged into a new classification, but it remains an aggregate of its components.",
+      },
+    },
+    {
+      id: "v-1-1-26",
+      verseNumber: "1.1.26",
+      ahnika: 1,
+      sanskrit: "द्वयोस्तु प्रवृत्त्योः कर्माप्रवृत्तिः॥",
+      transliteration: "dvayostu pravṛttyoḥ karmāpravṛttiḥ ||",
+      translation:
+        "When two opposing actions or forces interact, they do not produce a combined third action; instead, they cancel each other out, resulting in a state of rest.",
+      commentary:
+        "An ancient observation on opposing mechanical forces (equilibrium): if two equal physical vectors hit each other from directly opposite directions, they neutralize, and motion ceases.",
+      philosophy:
+        "A direct structural exploration of balanced forces. Motion requires an un-neutralized vector; when vectors are locked in perfect opposition, kinetic manifestation drops to zero, producing structural stagnation.",
+      viewpoint: {
+        how_people_think:
+          "When two equal forces crash directly into each other, their motions fuse together into a mystical, hidden internal motion that continues forever.",
+        the_reality_is:
+          "Vaisheshika treats physics cleanly: opposing equal forces result in the literal annihilation of the active moving states, mechanically bringing the substance to a dead stop.",
+      },
+    },
+    {
+      id: "v-1-1-27",
+      verseNumber: "1.1.27",
+      ahnika: 1,
+      sanskrit: "द्रव्याश्रय्यगुणाद् द्रव्यं कार्यं सामान्यम्॥",
+      transliteration: "dravyāśrayyaguṇād dravyaṁ kāryaṁ sāmānyam ||",
+      translation:
+        "A substance can be produced as a common effect from a quality that resides in its cause.",
+      commentary:
+        "Certain structural qualities in raw elements (like the cohesive fluid quality of water or the thermal profile of a substance) are what allow the elements to bind together and form a new, stable material compound.",
+      philosophy:
+        "Explores non-inherent causality (*Asamavayi Karana*). It isn't just raw atomic matter that creates a compound; it is the specific, localized *qualities* of that matter (like stickiness, magnetism, or heat) that actively facilitate the structural bonding required to manifest an effect.",
+      viewpoint: {
+        how_people_think:
+          "Qualities are completely irrelevant to the physics of binding; you can build a stable physical structure out of any matter regardless of its material attributes.",
+        the_reality_is:
+          "Kanada asserts that a compound cannot form in a vacuum of traits. The inherent qualities of the raw elements are the absolute catalysts that govern whether they can successfully bind into a new macro-substance.",
+      },
+    },
+    {
+      id: "v-1-1-28",
+      verseNumber: "1.1.28",
+      ahnika: 1,
+      sanskrit: "संयोगात् द्राव्याणां कर्म॥",
+      transliteration: "saṁyogāt drāvyāṇāṁ karma ||",
+      translation:
+        "Action or motion is produced in substances through conjunction or impact.",
+      commentary:
+        "A physical object will remain static unless it undergoes a dynamic impact, collision, or mechanical contact (conjunction) with an external force.",
+      philosophy:
+        "An early conceptual mapping of inertia and force transmission. Motion does not ignite within inert matter spontaneously; it requires a physical event—an impact or contact vector—to manifest.",
+      viewpoint: {
+        how_people_think:
+          "Inanimate objects start moving completely on their own due to internal desires, magic, or mystical intent.",
+        the_reality_is:
+          "Vaisheshika outlines strict mechanical causality: a resting substance can only exit its state of rest when an external physical contact or impact actively transfers energy to it.",
+      },
+    },
+    {
+      id: "v-1-1-29",
+      verseNumber: "1.1.29",
+      ahnika: 1,
+      sanskrit: "गुणानां च गुणः॥",
+      transliteration: "guṇānāṁ ca guṇah ||",
+      translation:
+        "A quality can be the cause of another quality in a chain of succession.",
+      commentary:
+        "Existing attributes directly produce secondary attributes when states change. For example, the thermal energy (quality) applied to a clay pot directly generates its new red color (quality).",
+      philosophy:
+        "Maintains property causality. Kanada shows that physical modifications are not random; the internal state transitions and qualitative metrics of a system flow logically from its preceding attributes.",
+      viewpoint: {
+        how_people_think:
+          "An object's properties change instantly and randomly without any tracking link to the energies or attributes that came before them.",
+        the_reality_is:
+          "Kanada proves that properties operate in structured histories; a material's incoming attributes are strictly engineered by its previous environmental and qualitative inputs.",
+      },
+    },
+    {
+      id: "v-1-1-30",
+      verseNumber: "1.1.30",
+      ahnika: 1,
+      sanskrit: "कर्मणाम् च कर्म॥",
+      transliteration: "karmaṇāṁ ca karma ||",
+      translation:
+        "And an action can appear to cause another action by transmitting its momentum through a medium.",
+      commentary:
+        "While verse 1.1.11 established that an action cannot directly duplicate or breed another action as an inherent property, a kinetic action *can* serve as the efficient cause that knocks into an object and unleashes a subsequent motion.",
+      philosophy:
+        "Clarifies momentum transfer. Kanada neatly distinguishes between property inheritance (which motion lacks) and mechanical impulse transmission (which motion drives). One motion strikes a system, triggering an equilibrium break that releases a secondary motion.",
+      viewpoint: {
+        how_people_think:
+          "Because motion cannot inherit properties like matter does, a moving object can never cause another object to start moving.",
+        the_reality_is:
+          "Vaisheshika keeps mechanical laws balanced: motion doesn't reproduce clones of itself, but it acts as a kinetic trigger that unlocks and passes momentum through material objects.",
+      },
+    },
+    {
+      id: "v-1-1-31",
+      verseNumber: "1.1.31",
+      ahnika: 1,
+      sanskrit: "द्रव्याणाम् च द्रव्यम्॥",
+      transliteration: "dravyaṇāṁ ca dravyam ||",
+      translation:
+        "A substance can terminate or destroy another substance by breaking its structural unity.",
+      commentary:
+        "Substances interact directly to dissolve one another. For instance, an incoming physical tool or opposing material compound can disrupt the atomic configurations of an object, causing it to collapse.",
+      philosophy:
+        "Concludes Section 1 with structural dissolution. Just as matter compounds to scale up into macro-objects, matter can mechanically fracture contacts to scale macro-structures back down to their fundamental elements.",
+      viewpoint: {
+        how_people_think:
+          "When an object breaks down or vanishes, it disappears into a mystical void of nothingness.",
+        the_reality_is:
+          "In Vaisheshika physics, destruction is purely geometric disjunction. A material structure is dissolved because an incoming substance breaks its atomic bonds, reverting the compound back to its baseline parts.",
+      },
+    },
+    {
+      id: "v-1-2-1",
+      verseNumber: "1.1.1", // Mark as 1.2.1 conceptually, but follows sequentially in array
+      ahnika: 2,
+      sanskrit: "कारणाभावात्कार्याभावः॥",
+      transliteration: "kāraṇābhāvātkāryābhāvaḥ ||",
+      translation:
+        "From the absence of the cause results the absence of the effect.",
+      commentary:
+        "A foundational axiom of Vaisheshika determinism: an effect can never materialize out of nothing if its prerequisite material components or forces are absent.",
+      philosophy:
+        "This establishes the rule of ex-nihilo negation. Reality operates on a strict, unbroken chain of causal conditions. If the causal substrate does not exist, the downstream property or object is mathematically impossible.",
+      viewpoint: {
+        how_people_think:
+          "An effect or a new creation can materialize spontaneously in nature without any structural raw components or preceding forces.",
+        the_reality_is:
+          "Kanada sets a hard physical boundary: no cause, no effect. Universal creation and transformation are entirely bound by the structural presence of baseline prerequisites.",
+      },
+    },
+    {
+      id: "v-1-2-2",
+      verseNumber: "1.2.2",
+      ahnika: 2,
+      sanskrit: "न तु कार्याभावात्कारणाभावः॥",
+      transliteration: "na tu kāryābhāvātkāraṇābhāvaḥ ||",
+      translation:
+        "But the absence of an effect does not imply the absence of the cause.",
+      commentary:
+        "The reverse condition of the previous rule: raw materials and potential forces can exist in a resting state without necessarily producing a compound object yet.",
+      philosophy:
+        "Asymmetry in causation. An un-sculpted block of clay (cause) exists perfectly well on its own without the pot (effect) being made yet. Causes are ontologically independent; effects are entirely dependent.",
+      viewpoint: {
+        how_people_think:
+          "If a specific outcome or final product isn't actively visible, it means the underlying elements and raw materials must also be completely missing from the universe.",
+        the_reality_is:
+          "Vaisheshika notes that matter outlives its configurations. Baseline elements exist eternally in potential states, waiting for kinetic triggers to form compounds.",
+      },
+    },
+    {
+      id: "v-1-2-3",
+      verseNumber: "1.2.3",
+      ahnika: 2,
+      sanskrit: "सामान्यं विशेष इति बुद्धयपेक्षम्॥",
+      transliteration: "sāmānyaṁ viśeṣa iti buddhyapekṣam ||",
+      translation:
+        "Generality (universal) and Particularity (individuality) are relative concepts dependent upon the operation of the intellect.",
+      commentary:
+        "Kanada introduces how the human mind organizes data. An attribute can be viewed as a 'universal' when grouping similar objects, or a 'particular' when separating them from different classes.",
+      philosophy:
+        "The cognitive basis of genus and species categorization. For example, 'Cow-ness' is a generality that groups all cows together, but it acts as a particularity because it cleanly separates cows from horses. These concepts rely on cognitive processing to sort reality's data grid.",
+      viewpoint: {
+        how_people_think:
+          "Classification categories are completely imaginary, random fabrications of human language with zero basis in physical reality.",
+        the_reality_is:
+          "Vaisheshika hits a brilliant middle ground: while the mind applies the *labels*, it does so by observing objective, matching structural properties that genuinely exist out in the real world.",
+      },
+    },
+    {
+      id: "v-1-2-4",
+      verseNumber: "1.2.4",
+      ahnika: 2,
+      sanskrit: "भावः सामान्यमेव भवतोः कारणत्वात्॥",
+      transliteration: "bhāvaḥ sāmānyameva bhavatoḥ kāraṇatvāt ||",
+      translation:
+        "Existence / Being is purely a generality, because it is the common cause of all positive classifications.",
+      commentary:
+        "The ultimate macro-category is *Bhava* (pure existence). It is a universal container that unites every single tangible substance, quality, and action under one shared status: they *exist*.",
+      philosophy:
+        "The highest universal (*Para Samanya*). Existence is unique because it only includes and unifies; it never functions as a sub-class or particularity to divide things, since there is nothing ontologically higher than 'being'.",
+      viewpoint: {
+        how_people_think:
+          "The fact that an atom, a color, and a kinetic movement all 'exist' is a completely loose, trivial coincidence with no philosophical meaning.",
+        the_reality_is:
+          "Kanada proves that *Bhava* (Being) is a primary, binding ontological baseline that runs through all real categories, validating that our universe is a cohesive, interconnected reality.",
+      },
+    },
+    {
+      id: "v-1-2-5",
+      verseNumber: "1.2.5",
+      ahnika: 2,
+      sanskrit: "द्रव्यगुणकर्मणां सामान्यविशेषाः सन्ति॥",
+      transliteration: "dravyaguṇakarmaṇāṁ sāmānyaviśeṣāḥ santi ||",
+      translation:
+        "Substances, Qualities, and Actions have their own sub-categories of generalities and particularities.",
+      commentary:
+        "Beneath the highest existence, each of the first three categories possesses its own nested system of classification (e.g., Earth is a sub-class of Substance; Blue is a sub-class of Quality).",
+      philosophy:
+        "The architecture of nested hierarchies. Except for the absolute highest universal (pure being) and absolute lowest particles, all intermediate classifications operate dynamically as both generalities (to group items) and particularities (to exclude others).",
+      viewpoint: {
+        how_people_think:
+          "Nature is a chaotic, random assortment of individual objects that share no logical structural layers or genus groupings.",
+        the_reality_is:
+          "Vaisheshika maps reality as an organized tree data structure. Elements possess shared, structural sub-classes that allow the human intellect to parse and understand natural laws systematically.",
+      },
+    },
+    {
+      id: "v-1-2-6",
+      verseNumber: "1.2.6",
+      ahnika: 2,
+      sanskrit: "सामान्यविशेषाभावेन च॥",
+      transliteration: "sāmānyaviśeṣābhāvena ca ||",
+      translation:
+        "But Generality and Particularity themselves do not contain another layer of generalities and particularities.",
+      commentary:
+        "The categories of classification (*Samanya* and *Vishesha*) are primary concepts. You cannot have a 'generality of a generality' down to infinity.",
+      philosophy:
+        "Prevents infinite regress (*Anavastha*). Kanada places a logical stop-buffer on classification. A universal category is a fundamental ontological tool; it can categorize matter, but you cannot stack categories on top of abstract categories endlessly.",
+      viewpoint: {
+        how_people_think:
+          "Logical classifications can be layered on top of classifications infinitely without ever hitting a primary, foundational category of thought.",
+        the_reality_is:
+          "Vaisheshika enforces strict logical boundaries. Classification features terminate at primary values, ensuring that human logic remains anchored to clean, testable axioms.",
+      },
+    },
+    {
+      id: "v-1-2-7",
+      verseNumber: "1.2.7",
+      ahnika: 2,
+      sanskrit: "सदिति यतो द्रव्यगुणकर्मसु सा सत्ता॥",
+      transliteration: "saditi yato dravyaguṇakarmasu sā sattā ||",
+      translation:
+        "That which gives rise to the uniform perception of 'existent' across substances, qualities, and actions, is Existence itself.",
+      commentary:
+        "The reason we perceive matter, colors, and motion as equally 'real' is due to their shared inherence in the singular universal attribute of *Satta* (Pure Being).",
+      philosophy:
+        "The ontological validation of reality. *Satta* or *Bhava* is the unifying field that weaves through physical objects, mathematical measures, and dynamic forces, giving them their existential validation.",
+      viewpoint: {
+        how_people_think:
+          "Saying a table exists, a color exists, and a force exists uses completely different meanings of the word 'exist' each time.",
+        the_reality_is:
+          "Kanada asserts a objective unity: existence is a singular, real category that validates the physical presence of matter, traits, and energy alike.",
+      },
+    },
+    {
+      id: "v-1-2-8",
+      verseNumber: "1.2.8",
+      ahnika: 2,
+      sanskrit: "द्रव्यगुणकर्मभ्योऽर्थान्तरं सत्ता॥",
+      transliteration: "dravyaguṇakarmabhyo'rthāntaraṁ sattā ||",
+      translation:
+        "Existence is a distinct entity, separate from Substance, Quality, and Action.",
+      commentary:
+        "Existence is not a physical object, it is not a literal color, and it is not a movement. It is the overriding category that *qualifies* them.",
+      philosophy:
+        "Clean categorization of meta-properties. If existence were simply identical to 'substance', then qualities and actions could not exist. Therefore, Existence (*Satta*) must stand as an independent category of reality.",
+      viewpoint: {
+        how_people_think:
+          "Existence is a material ingredient or a physical trait that you can physically mix into an object like flour or paint.",
+        the_reality_is:
+          "Vaisheshika defines existence as an abstract, foundational predicate. It is a unique ontological category that characterizes material reality, not a physical component of matter.",
+      },
+    },
+    {
+      id: "v-1-2-9",
+      verseNumber: "1.2.9",
+      ahnika: 2,
+      sanskrit: "न च कर्मवद्बहुत्वात्॥",
+      transliteration: "na ca karmavadbahutvāt ||",
+      translation:
+        "And Existence is not an Action, because it is singular, whereas actions are many and localized.",
+      commentary:
+        "Existence cannot be classified as a type of motion or movement. A movement is a transient event bounded by space and time, while existence is a continuous, uniform status.",
+      philosophy:
+        "Differentiating state from event. A kinetic action has a velocity and a direction vector; Existence has neither. Motion comes and goes, but the baseline property of being remains constant.",
+      viewpoint: {
+        how_people_think:
+          "The state of existing is a continuous, rapid micro-vibration or physical movement of particles.",
+        the_reality_is:
+          "In this system, existing is a structural state of being, completely distinct from the mechanical forces and kinetic vectors that act upon matter.",
+      },
+    },
+    {
+      id: "v-1-2-10",
+      verseNumber: "1.2.10",
+      ahnika: 2,
+      sanskrit: "गुणवत्त्वाच्च न गुणः॥",
+      transliteration: "guṇavattvācca na guṇaḥ ||",
+      translation:
+        "And Existence is not a Quality, because it is that which allows qualities themselves to exist.",
+      commentary:
+        "Existence cannot be downgraded to a standard quality (like blue or heavy), because standard qualities require existence to manifest. You can have an existing quality, but you cannot have a 'blue existence'.",
+      philosophy:
+        "The logic of higher-order predicates. A quality is a dependent attribute locked onto a substance. Existence, however, encompasses qualities themselves, making it a universal category that transcends mere material descriptions.",
+      viewpoint: {
+        how_people_think:
+          "Existence is just another descriptive trait, completely identical to an object's weight, dimensions, or structural texture.",
+        the_reality_is:
+          "Kanada demonstrates that existence is the primary framework that makes traits possible in the first place; it is a macro-category, not an individual physical attribute.",
+      },
+    },
+    {
+      id: "v-1-2-11",
+      verseNumber: "1.2.11",
+      ahnika: 2,
+      sanskrit:
+        "सामान्यविशेषाभावाच्च द्रव्यत्वं गुणत्वं कर्मत्वं च न गुणाः न कर्माणि॥",
+      transliteration:
+        "sāmānyaviśeṣābhāvācca dravyatvaṁ guṇatvaṁ karmatvaṁ ca na guṇāḥ na karmāṇi ||",
+      translation:
+        "The generic identities of 'Substanceness', 'Qualityness', and 'Actionness' are neither qualities nor actions, because they lack secondary layers of classification.",
+      commentary:
+        "The overarching class essences (like 'Substanceness') are purely conceptual abstractions that group things; they are not concrete physical traits or kinetic forces themselves.",
+      philosophy:
+        "Differentiating a classification template from its physical members. The template 'Substanceness' (*Dravyatva*) is an absolute logical concept that captures matter, but the template itself does not possess weight (quality) or hit something (action).",
+      viewpoint: {
+        how_people_think:
+          "The abstract category definitions used to group elements are literal physical objects or chemicals hidden inside matter.",
+        the_reality_is:
+          "Vaisheshika defines category types as non-material essences. They are mental and structural realities that allow our intellect to identify patterns, not physical variables you can measure with tools.",
+      },
+    },
+    {
+      id: "v-1-2-12",
+      verseNumber: "1.2.12",
+      ahnika: 2,
+      sanskrit: "एकद्रव्यत्वान्न गुणाः॥",
+      transliteration: "ekadravyactvānnā guṇāḥ ||",
+      translation:
+        "Generic identities are not qualities, also because a quality can reside in many substances, while an identity is unique to its class.",
+      commentary:
+        "Provides further logical proof. A property like white or hot can be shared by water, fire, and cloth alike. However, 'Substanceness' belongs exclusively to the material category, making its identity structural, not descriptive.",
+      philosophy:
+        "The isolation of categorical traits. A quality crosses boundaries easily (both earth and water can be cold). A category essence, however, defines strict ontological boundaries that prevent systems from collapsing into semantic chaos.",
+      viewpoint: {
+        how_people_think:
+          "An object's underlying structural classification is fluid and can change mid-way into a completely different category of existence.",
+        the_reality_is:
+          "Kanada proves that structural frameworks are immutable. An action can never mutate into a quality; things are anchored permanently within their categorical boundaries.",
+      },
+    },
+    {
+      id: "v-1-2-13",
+      verseNumber: "1.2.13",
+      ahnika: 2,
+      sanskrit: "द्रव्ये च न कर्माणि असयोगात्॥",
+      transliteration: "dravye ca na karmāṇi asaṁyogāt ||",
+      translation:
+        "And these generic categories do not perform actions, because they do not participate in mechanical conjunctions or disjunctions.",
+      commentary:
+        "An abstract category line cannot move, strike an object, or change its position vector. Only physical substances can execute an action.",
+      philosophy:
+        "Keeps logic grounded. Concepts do not move things; only matter transfers force. The idea of an element is completely stationary; it is the physical element itself that interacts with velocity vectors.",
+      viewpoint: {
+        how_people_think:
+          "An abstract concept, genus type, or linguistic label can float down from the sky and physically push matter around.",
+        the_reality_is:
+          "Vaisheshika keeps a clean line between logic and kinetics. Thought processes and categories help humans structure data, but only an actual, physical substance can exert physical force.",
+      },
+    },
+    {
+      id: "v-1-2-14",
+      verseNumber: "1.2.14",
+      ahnika: 2,
+      sanskrit: "द्रव्याणां द्रव्यं कार्यं सामान्यम्॥",
+      transliteration: "dravyāṇāṁ dravyaṁ kāryaṁ sāmānyam ||",
+      translation:
+        "The generic identity of Substance is validated because multiple distinct materials all produce material effects.",
+      commentary:
+        "We know the category 'Substance' is an objective reality because completely diverse materials (like wood, stone, or clay) all show the uniform ability to act as material building blocks for compound objects.",
+      philosophy:
+        "Empirical proof of categories. Vaisheshika does not guess categories; it proves them through observable mechanics. Because different objects produce identical systemic behaviors (like serving as a physical base), they must belong to the same objective genus.",
+      viewpoint: {
+        how_people_think:
+          "The classification of objects into groups like 'matter' is completely arbitrary and has nothing to do with how things behave.",
+        the_reality_is:
+          "Kanada demonstrates that our categories are validated by deep physics. If two things serve as solid, physical substrates for compounds, they belong to the genus of Substance by default.",
+      },
+    },
+    {
+      id: "v-1-2-15",
+      verseNumber: "1.2.15",
+      ahnika: 2,
+      sanskrit: "गुणत्वं च गुणेषु सामान्यम्॥",
+      transliteration: "guṇatvaṁ ca guṇeṣu sāmānyam ||",
+      translation:
+        "Similarly, the generic identity of Quality is validated because all traits show a uniform, passive dependence on matter.",
+      commentary:
+        "The category of Quality (*Gunatva*) is proven because completely separate traits (like the number 5, the color red, or a state of pleasure) all show the exact same structural behavior: they never move on their own and must adhere to a body.",
+      philosophy:
+        "Validating properties. No matter how different a color seems from a math coordinate, they share an identical ontological status: they are passive, non-kinetic metrics that require a substance to manifest.",
+      viewpoint: {
+        how_people_think:
+          "Human feelings, physical colors, and math equations share absolutely no structural similarities in reality.",
+        the_reality_is:
+          "Vaisheshika reveals their shared code: they are all *Gunas* (Qualities)—completely dependent, static metrics that map out the status of a system.",
+      },
+    },
+    {
+      id: "v-1-2-16",
+      verseNumber: "1.2.16",
+      ahnika: 2,
+      sanskrit: "कर्मत्वं च कर्मसु सामान्यम्॥",
+      transliteration: "karmatvaṁ ca karmasu sāmānyam ||",
+      translation:
+        "And the generic identity of Action is validated because all movements share the uniform behavior of altering spatial coordinates.",
+      commentary:
+        "The category of Action (*Karmatva*) is proven because throwing upward, expanding, or walking forward all do the exact same mechanical work: they instantly sever contact with point A and establish contact with point B.",
+      philosophy:
+        "The uniform signature of kinetic energy. All varieties of movement are unified under one genus because they are the sole dynamic agents that change spatial metrics in the universe.",
+      viewpoint: {
+        how_people_think:
+          "Dropping an object downward and expanding a balloon are completely unrelated magical phenomena.",
+        the_reality_is:
+          "Kanada codes them uniformly: they are kinetic vectors (*Karma*). Their variations are minor; their core mechanics are identical—relocating matter across space.",
+      },
+    },
+    {
+      id: "v-1-2-17",
+      verseNumber: "1.2.17",
+      ahnika: 2,
+      sanskrit:
+        "सदनेित्यं द्रव्यवत्कार्यं कारणं सामान्यविशेषवदिति द्रव्यगुणकर्मणामविशेषः॥",
+      transliteration:
+        "sadanityaṁ dravyavatkāryaṁ kāraṇaṁ sāmānyaviśeṣavaditi dravyaguṇakarmaṇāmaviśeṣaḥ ||",
+      translation:
+        "Thus, the shared reality of Substance, Quality, and Action is that they exist tangibly, are dynamic, host properties, act as causes, and can be structured via generalities and particularities.",
+      commentary:
+        "Sage Kanada closes Chapter 1 by bringing his first three *Padarthas* back into a grand unified baseline of objective existence.",
+      philosophy:
+        "A spectacular summary of rational realism. Matter, properties, and kinetic energy are not separate cosmic planes; they are closely linked layers of one tangible, logical, and fully calculable universe.",
+      viewpoint: {
+        how_people_think:
+          "Ancient philosophy always concludes that the material universe is an entirely chaotic, incomprehensible illusion.",
+        the_reality_is:
+          "Kanada finishes his opening thesis with absolute scientific clarity: our world is real, structured, and operates under solid, mathematical rules of cause and effect.",
+      },
+    },
+    {
+      id: "v-1-2-18",
+      verseNumber: "1.2.18",
+      ahnika: 2,
+      sanskrit: "निष्क्रियत्वात्॥",
+      transliteration: "niṣkriyatvāt ||",
+      translation:
+        "Because Existence is entirely devoid of physical action or motion.",
+      commentary:
+        "Further isolates the category of Existence from physical mechanics. Motion is a transient event that moves an object, whereas Existence is the static, all-encompassing reality that allows that object to be.",
+      philosophy:
+        "An abstract category definition does not exert kinetic vectors. Kanada keeps our logical classification distinct from mechanical kinematics.",
+      viewpoint: {
+        how_people_think:
+          "Existing is an active, running physical behavior that elements perform dynamically.",
+        the_reality_is:
+          "Vaisheshika defines Existing as a baseline state of reality, completely independent of kinetic movement or physical mechanics.",
+      },
+    },
+    {
+      id: "v-1-2-19",
+      verseNumber: "1.2.19",
+      ahnika: 2,
+      sanskrit: "सामान्याच्च॥",
+      transliteration: "sāmānyācca ||",
+      translation:
+        "And because it is a universal genus that applies uniformly across the board.",
+      commentary:
+        "An action can only belong to one physical object at a single point in space. Existence, however, runs concurrently through all objects, proving it functions as a universal category.",
+      philosophy:
+        "Highlights the collective nature of universals. The property of 'being' is shared across the entire grid of reality simultaneously, transcending localized boundaries.",
+      viewpoint: {
+        how_people_think:
+          "Existence is a highly localized property that is split up into completely disconnected fragments.",
+        the_reality_is:
+          "Kanada presents Existence as a cohesive, universal continuum that unites all physical objects under a single ontological status.",
+      },
+    },
+    {
+      id: "v-1-2-20",
+      verseNumber: "1.2.20",
+      ahnika: 2,
+      sanskrit: "सतः सदाश्रयत्वात्॥",
+      transliteration: "sataḥ sadāśrayatvāt ||",
+      translation:
+        "Because that which exists is always supported by the framework of reality.",
+      commentary:
+        "Every temporary, compound object requires a real, foundational substrate of eternal causes to step into existence.",
+      philosophy:
+        "A core pillar of Vaisheshika realism: things do not emerge from nothingness or abstract vacuums. Macro-objects exist because they are anchored to the stable, objective properties of their underlying elements.",
+      viewpoint: {
+        how_people_think:
+          "The visible world floats in a void with no connection to underlying physical or logical foundations.",
+        the_reality_is:
+          "Vaisheshika emphasizes that every visible effect is tightly locked into a structural network of natural laws and primal causes.",
+      },
+    },
+    {
+      id: "v-1-2-21",
+      verseNumber: "1.2.21",
+      ahnika: 2,
+      sanskrit: "असदिति च कार्यविरोधि॥",
+      transliteration: "asaditi ca kāryavirodhi ||",
+      translation:
+        "And the concept of 'Non-existence' is simply the logical opposite of the manifested effect.",
+      commentary:
+        "Sage Kanada concludes Chapter 1 by defining Non-existence (*Asat*). It is not a mystical void; it is simply the state of a compound object before it is assembled or after it is destroyed.",
+      philosophy:
+        "A brilliant definition of pragmatism. Non-existence is a real logical state—it tracks when parts are separated. A house is 'non-existent' before the bricks are joined, and 'non-existent' when it is demolished back into raw materials.",
+      viewpoint: {
+        how_people_think:
+          "Nothingness or non-existence is a magical, dangerous black-hole force in nature.",
+        the_reality_is:
+          "Vaisheshika handles it through simple geometry: non-existence is just a structural state mapping when components are not actively combined into a specific form.",
+      },
+    },
+  ],
+};

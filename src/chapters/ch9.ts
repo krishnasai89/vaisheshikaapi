@@ -1,0 +1,543 @@
+import { Chapter } from "../data";
+
+export const ch9: Chapter = {
+  id: "ch-9",
+  chapterNumber: 9,
+  title: "The Ontology of Non-Existence and Inference",
+  description:
+    "An investigation into the measurable states of non-existence (Abhāva), structural causal boundaries, and the mechanics of logical inference.",
+  verses: [
+    {
+      id: "v-9-1-1",
+      verseNumber: "9.1.1",
+      ahnika: 1,
+      sanskrit: "क्रियागुणव्यपदेशाभावात् प्रागसत्॥",
+      transliteration: "kriyāguṇavyapadeśābhāvāt prāgasat ||",
+      translation:
+        "Prior to its physical production, an effect is characterized by Antecedent Non-Existence (Prāgabhāva), because its specific actions and qualities are not yet present.",
+      commentary:
+        "Kaṇāda defines the state of a substance before it is manufactured. Before a potter shapes a clay pot, the pot does not exist yet. This state is called *Prāgabhāva* (antecedent non-existence). It is an objective reality that describes the potentiality of the raw material prior to structural transformation.",
+      philosophy:
+        "The temporal boundaries of creation. In Vaisheshika realism, things do not pop into existence from absolute magic. The time before an object is made is a measurable boundary state, ensuring that the emergence of an effect marks a real change in the time continuum.",
+      viewpoint: {
+        how_people_think:
+          "A clay pot already physically exists inside the raw dirt, complete with its handle and red paint, long before the potter even touches the wheel.",
+        the_reality_is:
+          "Kaṇāda enforces temporal boundaries: prior to manufacturing, the effect is characterized by a real state of antecedent non-existence, marking its transition from potential to actual reality.",
+      },
+    },
+    {
+      id: "v-9-1-2",
+      verseNumber: "9.1.2",
+      ahnika: 1,
+      sanskrit: "सतः परिमाणामूलत्वात्॥",
+      transliteration: "sataḥ parimāṇāmūlatvāt ||",
+      translation:
+        "Once an object is produced, its active existential dimension replaces its prior non-existence, anchoring it to real spatial coordinates.",
+      commentary:
+        "Kaṇāda maps the shift from non-existence to active presence. When the material components combine into a concrete shape, the antecedent non-existence is destroyed. The object now possesses real, measurable dimensions (*parimāṇa*), claiming its specific coordinate zone in space.",
+      philosophy:
+        "The physics of manifestation. Manifestation is the structural destruction of a potential state. When individual parts combine, their collective geometry replaces the prior non-existence with active, tangible mass.",
+      viewpoint: {
+        how_people_think:
+          "An object can become fully real and visible while occupying absolutely zero space or dimensions in the physical world.",
+        the_reality_is:
+          "Kaṇāda connects presence to metrics: entering real existence means replacing a prior non-existent state with an active, measurable geometric dimension.",
+      },
+    },
+    {
+      id: "v-9-1-3",
+      verseNumber: "9.1.3",
+      ahnika: 1,
+      sanskrit: "सदसत्॥",
+      transliteration: "sadasat ||",
+      translation:
+        "An entity can be simultaneously described as existing in its own form and non-existing in the form of another separate substance.",
+      commentary:
+        "Kaṇāda untangles relative identity. A ceramic bowl is an active, existing substance (*sat*) when evaluated as a bowl. However, that very same object possesses a real state of mutual non-existence (*asat*) when compared to a wooden chair. It is explicitly *not* a chair, defining its unique categorical boundary.",
+      philosophy:
+        "The logic of mutual exclusion. Objects are defined equally by what they are and what they are not. Mutual non-existence (*Anyonyābhāva*) keeps individual categories insulated, preventing material properties from melting into a single chaotic blur.",
+      viewpoint: {
+        how_people_think:
+          "A simple stone is secretly a flying bird, a fast river, and a hot candle flame all at the exact same split-second.",
+        the_reality_is:
+          "Kaṇāda isolates identities: an object is what it is, and it possesses a real state of non-existence relative to other categories, preserving universal boundaries.",
+      },
+    },
+    {
+      id: "v-9-1-4",
+      verseNumber: "9.1.4",
+      ahnika: 1,
+      sanskrit: "असतः क्रियागुणव्यपदेशाभावाद् अर्थान्तरम्॥",
+      transliteration: "asataḥ kriyāguṇavyapadeśābhāvād arthāntaram ||",
+      translation:
+        "Because non-existence lacks active physical movements and attributes, it is ontologically classified as a separate category from active substances.",
+      commentary:
+        "Kaṇāda blocks any confusion between presence and absence. Non-existence (*Abhāva*) is a real, scannable state of reality, but it does not run around, change colors, or carry weight like a regular physical substance. It is an independent category that marks the boundaries where mass is absent.",
+      philosophy:
+        "The formal categorization of absence. Vaisheshika integrates absence into its ontology. Knowing where something is missing is just as critical for science as knowing where it is present, requiring a dedicated structural category.",
+      viewpoint: {
+        how_people_think:
+          "An empty space where a missing glass used to sit is a heavy physical brick that you can chop in half with a pocket knife.",
+        the_reality_is:
+          "Kaṇāda defines boundaries: non-existence is an objective state marking structural absence. It lacks kinetic properties, operating as a distinct category from regular matter.",
+      },
+    },
+    {
+      id: "v-9-1-5",
+      verseNumber: "9.1.5",
+      ahnika: 1,
+      sanskrit: "सच्चासत्॥",
+      transliteration: "saccāsat ||",
+      translation:
+        "Even an existing macroscopic compound transitions into a state of Consequent Non-Existence (Pradhvaṁsābhāva) upon its structural destruction.",
+      commentary:
+        "Kaṇāda outlines the final boundary of a compound lifespan. When a clay pot is struck with a heavy hammer, its structural joints are broken, and it shatters into fragments. The pot as a unified compound enters *Pradhvaṁsābhāva* (consequent non-existence)—an irreversible state of absence following destruction.",
+      philosophy:
+        "The tracking of structural decay. In Vaisheshika physics, macro-objects have finite lifespans. Destruction is the permanent dissolution of the compound connection, transforming an active presence into a permanent state of historical absence while preserving the baseline atoms.",
+      viewpoint: {
+        how_people_think:
+          "When a house shatters to pieces, the complete, unbroken house magically flies away to hide behind a cloud in perfect condition.",
+        the_reality_is:
+          "Kaṇāda tracks structural endings: mechanical destruction ends the compound state, moving it into an objective, irreversible condition of consequent non-existence.",
+      },
+    },
+    {
+      id: "v-9-1-6",
+      verseNumber: "9.1.6",
+      ahnika: 1,
+      sanskrit: "नास्ति घटो गेहे इति झटिति प्रतिपत्तिः॥",
+      transliteration: "nāsti ghaṭo gehe iti jhaṭiti pratipattiḥ ||",
+      translation:
+        "The immediate cognitive realization that 'there is no clay pot inside this room' is a direct, valid perception of absence.",
+      commentary:
+        "Kaṇāda establishes that the perception of absence is an immediate cognitive event, not a long, drawn-out mathematical deduction. When you walk into a familiar room expecting to see your keys and find the table empty, your sensory setup registers that absence (*Abhāva*) instantly, marking it as a direct perceptual reality.",
+      philosophy:
+        "The empirical reality of scanning space. Vaisheshika frames the perception of missing objects as a direct sensory operation. The eye scans the empty coordinate box, and because the expected material host is absent, the mind immediately records a localized state of non-existence.",
+      viewpoint: {
+        how_people_think:
+          "Realizing an item is missing requires sitting down for three hours to write a complex algebraic proof on a chalkboard.",
+        the_reality_is:
+          "Kaṇāda confirms immediate scanning: our cognitive hardware captures localized absence instantly, making the perception of a missing object an empirical reality.",
+      },
+    },
+    {
+      id: "v-9-1-7",
+      verseNumber: "9.1.7",
+      ahnika: 1,
+      sanskrit: "घटाभाववद् भूतलमिति विशिष्टप्रत्ययत्वात्॥",
+      transliteration: "ghaṭābhāvavad bhūtalam-iti viśiṣṭapratyayatvāt ||",
+      translation:
+        "This perception occurs because the empty floor serves as the physical baseline substrate, qualified directly by the absence of the pot.",
+      commentary:
+        "Kaṇāda models how an absence is anchored in space. An absence cannot float around completely unanchored. When you look at an empty floor, the floor acts as the visible, concrete baseline substance (*viśiṣṭa*), while the absence of the pot serves as the unique qualitative modifier currently marking that spot.",
+      philosophy:
+        "The spatial anchoring of non-existence. Vaisheshika physics keeps data grounded. Absence is always mapped as a property of a real, localized space or substrate, ensuring that tracking where something is missing stays connected to real coordinates.",
+      viewpoint: {
+        how_people_think:
+          "An absence is an independent ghost that flies around in a magical cloud, completely disconnected from any floor, wall, or room.",
+        the_reality_is:
+          "Kaṇāda grounds absence tracking: non-existence is mapped as a modifier of a real substrate, anchoring missing items to specific, verifiable coordinate baselines.",
+      },
+    },
+    {
+      id: "v-9-1-8",
+      verseNumber: "9.1.8",
+      ahnika: 1,
+      sanskrit: "इन्द्रियसन्निकर्षाच्च गेहे घटस्मरणम्॥",
+      transliteration: "indriyasannikarṣācca gehe ghaṭasmaraṇam ||",
+      translation:
+        "The direct interaction of the sense organs with the empty space triggers the memory retrieval of the missing object.",
+      commentary:
+        "Kaṇāda untangles the cognitive mechanics of noticing a missing object. Your eye makes contact (*sannikarṣa*) with the real, empty room. This sensory input immediately pulls up the memory file (*smaraṇa*) of the object that usually sits there, creating a clean comparison between expected memory and current reality.",
+      philosophy:
+        "The interface of immediate input and memory. Recognizing an absence requires coordination. The sense organs bring in the current data of the empty space, while internal memory frames supply the expectation, allowing the cognitive engine to record the absence.",
+      viewpoint: {
+        how_people_think:
+          "You notice an object is missing entirely through telepathic magic, without your eyes or ears interfacing with the room at all.",
+        the_reality_is:
+          "Kaṇāda tracks the cognitive loop: noticing an absence requires your senses to scan the space, triggering a comparison with stored memory files.",
+      },
+    },
+    {
+      id: "v-9-1-9",
+      verseNumber: "9.1.9",
+      ahnika: 1,
+      sanskrit: "एतेनात्यन्ताभावो व्याख्यातः॥",
+      transliteration: "etenātyantābhāvo vyākhyātaḥ ||",
+      translation:
+        "By this very rule, Absolute Non-Existence (Atyantābhāva)—the complete, permanent structural incompatibility between two distinct entities—is established.",
+      commentary:
+        "Kaṇāda introduces the fourth and final type of non-existence: *Atyantābhāva* (absolute non-existence). This describes an unchangeable, permanent structural incompatibility across time. For example, there is an absolute absence of color inside the field of Air, or an absolute absence of fluid taste inside a piece of granite.",
+      philosophy:
+        "The permanent boundaries of elemental properties. Vaisheshika uses absolute non-existence to lock cosmic laws in place. Elements have hardcoded property limits; a field that lacks a certain trait can never randomly sprout it, preserving universal constants.",
+      viewpoint: {
+        how_people_think:
+          "A gust of transparent wind can easily turn bright neon green and taste exactly like chocolate chip cookies at any moment.",
+        the_reality_is:
+          "Kaṇāda locks elemental laws: absolute non-existence defines permanent structural boundaries, ensuring that elemental fields never mix their traits randomly.",
+      },
+    },
+    {
+      id: "v-9-1-10",
+      verseNumber: "9.1.10",
+      ahnika: 1,
+      sanskrit: "भूतल एतन्नास्तीति प्रत्यक्षप्रमाणसिद्धत्वात्॥",
+      transliteration: "bhūtala etannāstīti pratyakṣapramāṇasiddhatvāt ||",
+      translation:
+        "Therefore, the objective reality of non-existence is fully verified through empirical observation, serving as a reliable pillar of science.",
+      commentary:
+        "Kaṇāda delivers his closing epistemological defense for this block. Non-existence isn't a mystical guess or a religious belief; it is a verified reality proven by everyday empirical sight (*pratyakṣa*). Recognizing what is missing from an ecosystem is a clear observation that lets us plan and execute accurate steps.",
+      philosophy:
+        "The validation of negative facts in realism. Vaisheshika insists that science must map reality completely. Missing variables, empty spaces, and spent potentials are real, objective data points that must be cataloged alongside active masses.",
+      viewpoint: {
+        how_people_think:
+          "Empty spaces and missing parts do not matter at all for science because only heavy, solid blocks are real.",
+        the_reality_is:
+          "Kaṇāda defends complete observation: missing variables and absences are objective data verified by direct sight, serving as an essential part of physics.",
+      },
+    },
+    {
+      id: "v-9-1-11",
+      verseNumber: "9.1.11",
+      ahnika: 1,
+      sanskrit: "आत्मन्यात्ममनसोः संयोगविशेषाद् आत्मप्रत्यक्षम्॥",
+      transliteration: "ātmanyātmamanasoḥ saṃyogaviśeṣād ātmapratyakṣam ||",
+      translation:
+        "Direct perception of the Self (Atma) occurs when a unique, highly concentrated conjunction stabilizes between the Soul and the atomic Mind.",
+      commentary:
+        "Kaṇāda explains extraordinary cognitive mechanics. Under intense concentration, the flickering atomic mind router stops jumping between external sensory channels and locks into a stable, direct feedback loop with the underlying conscious substrate (*ātma-manasoḥ saṃyoga-viśeṣa*), resulting in direct, unmediated self-realization.",
+      philosophy:
+        "The mechanics of ultimate inward focus. Vaisheshika normalizes meditative experiences. It is not an arbitrary miracle, but a precise geometric alignment of internal hardware: stabilizing the atomic processor against the infinite background field reveals the observer directly to itself.",
+      viewpoint: {
+        how_people_think:
+          "Realizing your underlying consciousness requires your physical brain to literally explode into a cloud of sparkly pink stardust.",
+        the_reality_is:
+          "Kaṇāda defines inner mechanics: self-perception is an orderly result of stabilizing the atomic mind router directly against the conscious substrate.",
+      },
+    },
+    {
+      id: "v-9-1-12",
+      verseNumber: "9.1.12",
+      ahnika: 1,
+      sanskrit: "तथा द्रव्यान्तरेषु॥",
+      transliteration: "tathā dravyāntareṣu ||",
+      translation:
+        "Similarly, through this stabilized internal focus, direct structural perception of other hidden substances becomes possible.",
+      commentary:
+        "Kaṇāda shows how advanced cognitive clarity applies to physics. When the internal organ is freed from noisy sensory distortions, an observer can apply this laser-focused attention outward to directly track the coordinate structures and properties of other hidden or microscopic substances.",
+      philosophy:
+        "The expansion of empirical observation. In Vaisheshika realism, advanced concentration acts like a mental microscope. Removing internal cognitive noise allows the mind to intercept structural details that remain completely hidden to ordinary, distracted observation.",
+      viewpoint: {
+        how_people_think:
+          "Tracking hidden structures in nature is completely impossible unless you are born with a magical Third Eye made out of pure solid gold.",
+        the_reality_is:
+          "Kaṇāda treats observation as a skill: quietening internal processing noise acts like a mental microscope, sharpening your focus to track subtle material details.",
+      },
+    },
+    {
+      id: "v-9-1-13",
+      verseNumber: "9.1.13",
+      ahnika: 1,
+      sanskrit: "अस्मदादीनां च गुणकर्मसु॥",
+      transliteration: "asmadādīnāṃ ca guṇakarmasu ||",
+      translation:
+        "In contrast, for ordinary observers like ourselves (Asmad-adina), perception of qualities and actions is strictly bounded by macro-scale sensory triggers.",
+      commentary:
+        "Kaṇāda anchors baseline human limits. For the average observer, perception is strictly bound by macro-scale physics. We can only track a quality or motion if the hosting substance crosses the required size threshold and directly triggers our biological sensory organs.",
+      philosophy:
+        "The boundaries of baseline human observation. Vaisheshika builds its realism around human limitations. Ordinary perception requires high-contrast external signals, meaning we rely on macroscopic triggers to process properties.",
+      viewpoint: {
+        how_people_think:
+          "Every single human being can easily see individual sub-atomic forces moving around inside a solid wall while casually eating breakfast.",
+        the_reality_is:
+          "Kaṇāda defines human limits: ordinary sight requires macro-scale sensory triggers, meaning we must use systematic logic to decode things below that floor.",
+      },
+    },
+    {
+      id: "v-9-1-14",
+      verseNumber: "9.1.14",
+      ahnika: 1,
+      sanskrit: "युक्तस्य योगजप्रत्यक्षं सर्वदा॥",
+      transliteration: "yuktasya yogajapratyakṣaṃ sarvadā ||",
+      translation:
+        "For those who have permanently unified their cognitive hardware (Yukta), direct presentative awareness remains constant and uninterrupted.",
+      commentary:
+        "Kaṇāda describes the state of a perfected observer (*Yukta*). For an individual who has completely stabilized their cognitive framework, the capacity to observe things in their true, unclouded nature becomes a permanent, effortless baseline rather than a fleeting state.",
+      philosophy:
+        "The permanent optimization of consciousness. Vaisheshika models mental clarity as a permanent structural upgrade. Once the internal organ's noise is completely removed, the mind tracks reality with pristine precision across all coordinates.",
+      viewpoint: {
+        how_people_think:
+          "Clarity is a temporary mood swing that vanishes completely the very second you blink your eyes or look at a different wall.",
+        the_reality_is:
+          "Kaṇāda defines structural upgrades: a fully optimized cognitive framework keeps its clarity constant, tracking reality with permanent precision.",
+      },
+    },
+    {
+      id: "v-9-1-15",
+      verseNumber: "9.1.15",
+      ahnika: 1,
+      sanskrit: "वियुक्तस्य च किञ्चित्कालम्॥",
+      transliteration: "viyuktasya ca kiñcitkālam ||",
+      translation:
+        "While for those who are still practicing or occasionally distracted (Viyukta), this heightened perception manifests for brief, temporary intervals.",
+      commentary:
+        "Sage Kaṇāda concludes the first section with realistic nuance. For an observer who is still training or occasionally slides back into distraction (*Viyukta*), this unclouded perceptual clarity manifests in brief, temporary flashes. It shows that mental stability is a gradient, closing out Āhnika 1.",
+      philosophy:
+        "The progressive gradient of cognitive development. Vaisheshika avoids all-or-nothing binary thinking. Mental clarity scales proportionally with how well you train your internal processor, treating focus as a measurable asset that grows with practice.",
+      viewpoint: {
+        how_people_think:
+          "Mental focus is a mystical gift that either belongs to you 100% at birth or remains completely impossible for you to ever practice.",
+        the_reality_is:
+          "Kaṇāda sets up a clear gradient: focus scales with training. If you are still practicing, clarity shows up in temporary flashes, proving that attention is a built asset.",
+      },
+    },
+    {
+      id: "v-9-2-1",
+      verseNumber: "9.2.1",
+      ahnika: 2,
+      sanskrit: "अस्येदमिति यतोऽव्याप्यते तत् लिङ्गम्॥",
+      transliteration: "asyedamiti yato'vyāpyate tat liṅgam ||",
+      translation:
+        "An invariable, uncontradicted correlation—where one specific property is known to be bound to another—serves as a valid logical sign (Lingam).",
+      commentary:
+        "Kaṇāda establishes the foundation of inference. A logical sign or marker (*Lingam*) is not a random guess. It is an objective, invariable relationship where property A is structurally bound to property B (such as smoke being invariably bound to fire). This consistent correlation allows an observer to deduce hidden data.",
+      philosophy:
+        "The objective basis of deduction. Vaisheshika frames logic around real-world connections. Inference works because nature has stable, invariant rules of association (*Vyāpti*), turning observable traits into highly reliable data links.",
+      viewpoint: {
+        how_people_think:
+          "Using logic means randomly guessing what a sign means based on whatever wild fantasy pops into your head that morning.",
+        the_reality_is:
+          "Kaṇāda defines logical signs: a valid sign relies on a stable, invariant correlation in nature, allowing us to accurately map hidden facts from visible traits.",
+      },
+    },
+    {
+      id: "v-9-2-2",
+      verseNumber: "9.2.2",
+      ahnika: 2,
+      sanskrit: "संयोगि समवायि एकाथसमवायि विरोधि च॥",
+      transliteration: "saṃyogi samavāyi ekārthasamavāyi virodhi ca ||",
+      translation:
+        "These valid logical indicators are structured through four natural relationships: Conjunction, Inherence, Co-Inherence, and Absolute Contradiction.",
+      commentary:
+        "Kaṇāda itemizes the precise structural channels that allow logic to work. A sign can connect to an unobserved fact through: 1) Conjunction (e.g., thunder indicating rainclouds), 2) Inherence (e.g., a specific texture indicating the element), 3) Co-inherence in a shared cause (e.g., a specific color indicating a matching taste), or 4) Absolute contradiction (e.g., a massive flood indicating that no drought is happening).",
+      philosophy:
+        "The natural taxonomy of logic. Vaisheshika does not treat logic as a purely semantic game. Deductive reasoning is valid because it tracks real, objective links—joints, organic bonds, shared causes, or absolute exclusions—built into the physical world.",
+      viewpoint: {
+        how_people_think:
+          "Logical reasoning works through completely abstract magic that has zero connection to how physical things actually join or separate.",
+        the_reality_is:
+          "Kaṇāda maps logical channels: deduction is valid because it tracks real-world relationships—like conjunction or shared causes—built right into nature.",
+      },
+    },
+    {
+      id: "v-9-2-3",
+      verseNumber: "9.2.3",
+      ahnika: 2,
+      sanskrit: "भूतं भूतेन॥",
+      transliteration: "bhūtaṃ bhūtena ||",
+      translation:
+        "An unobserved element can be reliably inferred by analyzing its invariant connection with a separate, currently observed element.",
+      commentary:
+        "Kaṇāda applies his logical rules directly to material tracking. You do not need to see every single element at once to know it is present. By studying how an observed element interacts with its surroundings, you can accurately map the presence of a hidden material layer.",
+      philosophy:
+        "Material cross-inference. Vaisheshika validates scientific discovery through indirect indicators. Because physical systems are tightly connected, analyzing the behavior of visible matter allows us to decode hidden layers safely.",
+      viewpoint: {
+        how_people_think:
+          "If an element is slightly hidden from your immediate sight, it is completely impossible to ever prove its existence using natural clues.",
+        the_reality_is:
+          "Kaṇāda establishes material cross-inference: analyzing how an observed element behaves allows you to reliably deduce the presence of hidden physical layers.",
+      },
+    },
+    {
+      id: "v-9-2-4",
+      verseNumber: "9.2.4",
+      ahnika: 2,
+      sanskrit: "प्रसिद्धेः प्रसिद्धमुदाहरणम्॥",
+      transliteration: "prasiddheḥ prasiddham-udāharaṇam ||",
+      translation:
+        "An inference becomes universally intelligible when it is supported by a well-known, verified example (Udāharaṇa) from common experience.",
+      commentary:
+        "Kaṇāda explains how to communicate logical proofs. To make a deduction valid for others, you must reference a well-known, observable example (*Udāharaṇa*) where the correlation is universally verified. This grounds the argument in shared, repeatable reality.",
+      philosophy:
+        "The empirical anchors of communication. Vaisheshika ensures logic stays out of pure abstraction. A valid argument must point back to a concrete, real-world instance where the law can be inspected by anyone, keeping science democratic.",
+      viewpoint: {
+        how_people_think:
+          "To prove a wild point, you should only use imaginary examples that have never been seen or verified by a single human being in history.",
+        the_reality_is:
+          "Kaṇāda demands empirical anchors: a logical proof must use a well-known, verified example from common experience to ground the argument in shared reality.",
+      },
+    },
+    {
+      id: "v-9-2-5",
+      verseNumber: "9.2.5",
+      ahnika: 2,
+      sanskrit: "अपप्रसिद्धोऽनपदेशः॥",
+      transliteration: "apaprasiddho'napadeśaḥ ||",
+      translation:
+        "An indicator that relies on an unverified correlation or an erroneous example is a fallacy (Anapadesha) and carries no logical weight.",
+      commentary:
+        "Kaṇāda defines logical fallacies (*Anapadeśa*). If a sign relies on a broken, unproved link (such as claiming a stone is a horse because it has a hard texture), the correlation is invalid. It represents a flaw in processing, providing zero scientific weight.",
+      philosophy:
+        "The isolation of logical errors. Vaisheshika maintains strict filtering. A sign is not a true logical indicator unless its correlation is absolute and clean. Filtering out unverified links protects our knowledge base from contamination.",
+      viewpoint: {
+        how_people_think:
+          "Any random, loose comparison you make up on the fly counts as an absolute, ironclad proof of science.",
+        the_reality_is:
+          "Kaṇāda rejects loose logic: a sign that relies on unverified correlations is a fallacy, carrying zero logical weight in an accurate model.",
+      },
+    },
+    {
+      id: "v-9-2-6",
+      verseNumber: "9.2.6",
+      ahnika: 2,
+      sanskrit: "आत्ममनसोः संयोगविशेषात् संस्काराच्च स्मृतिः॥",
+      transliteration: "ātma-manasoḥ saṃyogaviśeṣāt saṃskārācca smṛtiḥ ||",
+      translation:
+        "Memory retrieval (Smṛti) occurs due to a specific focused connection between the Soul and the Mind, reacting across stored mental impressions.",
+      commentary:
+        "Kaṇāda defines the mechanics of memory. A memory isn't an uncaused ghost popping into your head. It is an orderly data transaction: the atomic mind processor links with the soul substrate at a specific node, triggering a stored impression (*Saṃskāra*) to recreate a past data profile.",
+      philosophy:
+        "The hardware mechanics of memory retrieval. Vaisheshika treats memories as stored traces within the soul. Retrieval is a rule-governed event that requires an active, focused intersection between the mind router and the stored record, normalising cognitive data recovery.",
+      viewpoint: {
+        how_people_think:
+          "Memories just float around as independent bugs outside your body, jumping into your skull completely at random.",
+        the_reality_is:
+          "Kaṇāda maps data retrieval: memory is an orderly transaction requiring the mind processor to interface with stored soul impressions, making recovery a rule-based event.",
+      },
+    },
+    {
+      id: "v-9-2-7",
+      verseNumber: "9.2.7",
+      ahnika: 2,
+      sanskrit: "तथा स्वप्नः॥",
+      transliteration: "tathā svapnaḥ ||",
+      translation:
+        "Similarly, the manifestation of dream states (Svapna) occurs through this identical internal processing mechanism when external sensors are offline.",
+      commentary:
+        "Kaṇāda explains dreams. When you sleep, your external sensory organs shut down and stop streaming raw data. However, the internal atomic mind router remains active inside the central nervous channel, processing and mixing old memory impressions (*Saṃskāras*) to create a simulated internal reality.",
+      philosophy:
+        "Dreams as simulated data processing. Vaisheshika normalizes dream states by stripping them of mystical omens. A dream is simply an internal sensory simulation running across stored memory files while the external data ports are safely shut down for rest.",
+      viewpoint: {
+        how_people_think:
+          "During a dream, your physical soul literally packs its bags, exits through your nose, and flies to a different physical planet.",
+        the_reality_is:
+          "Kaṇāda models internal simulation: dreams are automated data plays where the mind processor runs through old memory files while external sensory ports are offline.",
+      },
+    },
+    {
+      id: "v-9-2-8",
+      verseNumber: "9.2.8",
+      ahnika: 2,
+      sanskrit: "स्वप्नान्तिकं च॥",
+      transliteration: "svapnāntikaṃ ca ||",
+      translation:
+        "Cognitive awareness during the immediate transition out of a dream is driven by the gradual reactivation of these same internal circuits.",
+      commentary:
+        "Kaṇāda notes the physics of waking up (*Svapnāntika*). The fuzzy, half-awake state you experience right as a dream ends occurs because the atomic mind is transitioning back from internal memory channels to re-engage with external biological ports, marking a clear hardware handoff.",
+      philosophy:
+        "The mechanics of cognitive transition. Vaisheshika tracks processing thresholds. Waking up isn't instantaneous magic; it is a rapid, step-by-step physical routing where the internal processor re-establishes a clean connection with external sensors.",
+      viewpoint: {
+        how_people_think:
+          "Waking up is an uncaused, instantaneous leap across magical dimensions with zero processing stages in your physical frame.",
+        the_reality_is:
+          "Kaṇāda tracks the hardware handoff: waking up is an orderly physical transition where the internal processor re-routes its focus from inner memory files back to external inputs.",
+      },
+    },
+    {
+      id: "v-9-2-9",
+      verseNumber: "9.2.9",
+      ahnika: 2,
+      sanskrit: "इन्द्रियदोषात् संस्कारदोषाच्च अविद्या॥",
+      transliteration: "indriyadoṣāt saṃskāradoṣācca avidyā ||",
+      translation:
+        "Systematic illusion or false knowledge (Avidya) arises due to hardware defects inside the sense organs or corruption within stored memory impressions.",
+      commentary:
+        "Kaṇāda unmasks the origins of illusion (*Avidyā*). False knowledge isn't a magical cosmic curse; it is caused by physical bugs in the data stream. It happens either due to a defect in the sensory tool (like blurred vision) or a corrupted memory file (like misremembering a shape), leading the mind to construct an incorrect model of reality.",
+      philosophy:
+        "The physical cause of cognitive error. Vaisheshika de-mystifies ignorance. Error is treated like a hardware or software glitch. If your sensors bring in distorted waves, or your memory supplies an inaccurate comparison file, the resulting mental output will naturally be flawed.",
+      viewpoint: {
+        how_people_think:
+          "Making a cognitive mistake happens because an evil cosmic entity is casting a magical spell on your soul to trick you forever.",
+        the_reality_is:
+          "Kaṇāda identifies data corruption: illusion is a simple mechanical error caused by defects in your sensory hardware or bugs in your memory files.",
+      },
+    },
+    {
+      id: "v-9-2-10",
+      verseNumber: "9.2.10",
+      ahnika: 2,
+      sanskrit: "तद् दुष्टं ज्ञानम्॥",
+      transliteration: "tad duṣṭaṃ jñānam ||",
+      translation:
+        "Consequently, this false tracking is defined as corrupted or unoptimized knowledge, carrying a distorted view of objective constants.",
+      commentary:
+        "Kaṇāda classifies *Avidyā* precisely. It is not an absolute, black-hole void of zero data; it is corrupted knowledge (*duṣṭaṃ jñānam*). The mind is still actively processing data, but because the inputs or comparison files are broken, the final model fails to match the actual, objective layout of the external substance.",
+      philosophy:
+        "The nature of distorted models. Vaisheshika treats ignorance as a misalignment rather than a total lack of sight. The cognitive engine is running, but its output is a misaligned map that skews reality, requiring careful recalibration to fix.",
+      viewpoint: {
+        how_people_think:
+          "Ignorance means your brain is completely turned off and empty like a hollow wooden box with zero thoughts inside it.",
+        the_reality_is:
+          "Kaṇāda defines distorted models: illusion is active processing running on corrupted tracks, producing a misaligned mental map that fails to match reality.",
+      },
+    },
+    {
+      id: "v-9-2-11",
+      verseNumber: "9.2.11",
+      ahnika: 2,
+      sanskrit: "अदुष्टं विद्या॥",
+      transliteration: "aduṣṭaṃ vidyā ||",
+      translation:
+        "True, flawless knowledge (Vidyā) is characterized by an entirely untainted, precise tracking of objective reality.",
+      commentary:
+        "Kaṇāda defines pristine cognitive alignment (*Vidyā*). When the sensory instruments are functioning flawlessly and the internal memory retrieval systems are clean, the resulting mental model maps onto the external object with absolute precision. This uncorrupted data match constitutes valid science.",
+      philosophy:
+        "The definition of objective truth. In Vaisheshika realism, true knowledge is not a subjective opinion or a socially negotiated construct. It is a clean, unskewed copy of objective reality mirrored accurately inside the soul substrate.",
+      viewpoint: {
+        how_people_think:
+          "Truth is an imaginary, shifting illusion that changes completely based on what language you use to describe a stone.",
+        the_reality_is:
+          "Kaṇāda defines valid knowledge: truth is a precise, uncorrupted data match where your mental map accurately mirrors the objective properties of reality.",
+      },
+    },
+    {
+      id: "v-9-2-12",
+      verseNumber: "9.2.12",
+      ahnika: 2,
+      sanskrit: "ऋषिणाम् आर्षं प्रातिभं च॥",
+      transliteration: "ṛṣiṇām ārṣaṃ prātibhaṃ ca ||",
+      translation:
+        "The highly intuitive, flash-like insights (Prātibham) of perfected sages (Ṛṣis) represent pristine expressions of this uncorrupted knowledge.",
+      commentary:
+        "Kaṇāda explains the nature of genius and deep scientific insight (*Prātibha-jñāna*). When a mind has cleared away all cognitive noise and biases, it can experience flash-like moments of raw, immediate insight that cut straight to universal laws without relying on sluggish step-by-step external measurements.",
+      philosophy:
+        "The mechanics of raw intellectual intuition. Vaisheshika frames advanced intuition as a natural byproduct of cognitive purification. A perfected intellect can process systemic constants instantly because it has removed the internal friction that slows down ordinary tracking.",
+      viewpoint: {
+        how_people_think:
+          "Scientific genius and breakthrough discoveries are magical accidents that fall from the ceiling onto random people without any internal clarity.",
+        the_reality_is:
+          "Kaṇāda de-mystifies intuition: flash insights are the natural output of a highly optimized, unclouded mind that can track natural laws directly.",
+      },
+    },
+    {
+      id: "v-9-2-13",
+      verseNumber: "9.2.13",
+      ahnika: 2,
+      sanskrit: "तस्मात् तत् प्रमाणम्॥",
+      transliteration: "tasmāt tat pramāṇam ||",
+      translation:
+        "Consequently, knowledge verified through these flawless channels serves as an absolute, authoritative standard of evidence (Pramāṇam).",
+      commentary:
+        "Sage Kaṇāda closes his groundbreaking chapter on epistemology. Knowledge is certified as a reliable standard of evidence (*Pramāṇam*) when its causal pipeline is entirely free from bugs, distortions, and errors, providing a rock-solid foundation for all scientific deduction and inference, wrapping up Chapter 9.",
+      philosophy:
+        "The systemic verification of science. By concluding his analysis of logic and non-existence here, Kaṇāda secures his entire philosophical method. Valid knowledge isn't a speculative guess; it is an empirical, verifiable blueprint. Ensuring your data collection pipeline is free from distortion transforms human observation into an unshakeable standard of truth.",
+      viewpoint: {
+        how_people_think:
+          "Every single data source or random rumor carries the exact same scientific weight as a fully tested, clean empirical observation.",
+        the_reality_is:
+          "Kaṇāda delivers the final logical standard: knowledge is an authoritative benchmark only when its processing channels are thoroughly tested and free from error, locking the foundation of true science.",
+      },
+    },
+  ],
+};
