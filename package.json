@@ -2,16 +2,16 @@
   "name": "vaisheshika-api",
   "version": "1.0.0",
   "description": "Static API for Vaisheshika Sutras",
-  "main": "index.js",
+  "main": "src/server.ts",
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "start": "serve public",
     "test-data": "tsx scripts/validate-engine.ts",
     "build-api": "tsx src/build.ts",
-    "build": "tsc || echo 'No compilation steps required'"
+    "build": "tsx src/build.ts && (tsc || echo 'Skipping optional compile step')"
   },
   "keywords": [],
-  "author": "",
+  "author": "krishna",
   "license": "ISC",
   "packageManager": "pnpm@10.34.1",
   "dependencies": {
