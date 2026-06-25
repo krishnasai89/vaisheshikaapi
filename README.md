@@ -80,7 +80,7 @@ Other developers can consume your data streams instantly within any front-end ec
 
 ```JavaScript
 // Replace with your production cloud domain url string when deployed
-const ENGINE_API = "http://localhost:3000/api";
+const ENGINE_API = "https://vaisheshikaapi.vercel.app/api";
 
 async function fetchKinematicsData() {
 try {

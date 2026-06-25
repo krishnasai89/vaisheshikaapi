@@ -4,10 +4,11 @@
   "description": "Static API for Vaisheshika Sutras",
   "main": "index.js",
   "scripts": {
-    "build-api": "tsx src/build.ts",
-    "start": "serve public",
     "dev": "tsx watch src/server.ts",
-    "test-data": "tsx scripts/validate-engine.ts"
+    "start": "serve public",
+    "test-data": "tsx scripts/validate-engine.ts",
+    "build-api": "tsx src/build.ts",
+    "build": "tsc || echo 'No compilation steps required'"
   },
   "keywords": [],
   "author": "",

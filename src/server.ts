@@ -1,3 +1,4 @@
+// src/server.ts
 import { createServer } from "node:http";
 import { fullyCompiledSystem } from "./data";
 
@@ -115,8 +116,16 @@ const server = createServer((req, res) => {
   }
 });
 
-server.listen(PORT, () => {
-  console.log(`\n🪐 Vaiśeṣika Data API online!`);
-  console.log(`📡 Local Stream Address: http://localhost:${PORT}`);
-  console.log(`⚡ Dev watch environment active.\n`);
-});
+// --- CLOUD DEPLOYMENT LOGIC ENGINES ---
+
+// Only run the server process listener if we are running in a local machine loop
+if (process.env.VERCEL !== "1") {
+  server.listen(PORT, () => {
+    console.log(`\n🪐 Vaiśeṣika Data API online!`);
+    console.log(`📡 Local Stream Address: http://localhost:${PORT}`);
+    console.log(`⚡ Dev watch environment active.\n`);
+  });
+}
+
+// Export default for Vercel's serverless runtime environment mapper
+export default server;
